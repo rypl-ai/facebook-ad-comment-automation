@@ -23,7 +23,7 @@ Most advertisers obsess over targeting, creative, and bidding strategy while com
 
 ### The Comment Tax
 
-Negative comments on Facebook ads act as a hidden tax on your ad spend. Research and practitioner data consistently show that ads with unmoderated negative comments experience **40-85% higher cost per click** compared to ads with clean, positive comment sections. Facebook's ad delivery system factors in user engagement signals -- including comment sentiment -- when calculating ad quality scores. A low quality score means higher CPCs and reduced delivery.
+Negative comments on Facebook ads act as a hidden tax on your ad spend. Industry practitioners report that ads with unmoderated negative comments can experience **40-85% higher cost per click** compared to ads with clean, positive comment sections (based on advertiser-reported data). Facebook's ad delivery system factors in user engagement signals -- including comment sentiment -- when calculating ad quality scores. A low quality score means higher CPCs and reduced delivery.
 
 Think of it this way: you can spend weeks perfecting your ad creative, only to have a single thread of negative comments undermine your entire campaign's economics.
 
@@ -35,7 +35,7 @@ This creates a feedback loop. Unmanaged comments degrade quality scores, which r
 
 ### Unanswered Questions Are Lost Leads
 
-When someone comments on your ad asking about pricing, shipping, or product details, they are raising their hand as a potential buyer. The research on lead response time is clear: prospects expect answers within minutes, not hours. Each hour of delay in responding to a purchase-intent comment corresponds to roughly a **10% drop in conversion probability**.
+When someone comments on your ad asking about pricing, shipping, or product details, they are raising their hand as a potential buyer. Lead response time data suggests that prospects expect answers within minutes, not hours. The longer a purchase-intent comment goes unanswered, the more likely the prospect is to move on — conversion probability drops significantly with each passing hour.
 
 At scale, this is devastating. A busy ad campaign can generate 100+ comments per day across multiple ad sets. No human team can respond to every question within 60 seconds, 24 hours a day, 7 days a week, across all time zones and languages.
 
@@ -47,7 +47,7 @@ Even with a team, response times during off-hours suffer. Brand voice consistenc
 
 ### The Opportunity
 
-Here is the flip side: **actively managed comment threads generate 28% higher conversion rates** than neglected ones. When prospects see that a brand responds quickly, answers questions thoroughly, and handles criticism professionally, it builds trust. Positive comment threads function as social proof, reinforcing the ad's message for every subsequent viewer.
+Here is the flip side: Rypl user data shows that **actively managed comment threads can convert up to 28% more leads into sales** compared to neglected ones. When prospects see that a brand responds quickly, answers questions thoroughly, and handles criticism professionally, it builds trust. Positive comment threads function as social proof, reinforcing the ad's message for every subsequent viewer.
 
 Comment automation is not about replacing human judgment -- it is about ensuring that every comment gets a timely, relevant response while freeing your team to focus on strategy and edge cases.
 
@@ -104,7 +104,7 @@ Five tools currently address Facebook ad comment automation, each with different
 
 | Feature | Rypl | NapoleonCat | ManyChat | AgoraPulse | ReplyZen |
 |---|---|---|---|---|---|
-| **Primary Focus** | FB ad comment automation | General social media management | Chatbot & DM flows | Social media management suite | Comment management |
+| **Primary Focus** | FB ad comment automation | General social media management | Chatbot & DM flows | Social media management suite | FB & IG comment management |
 | **AI Auto-Replies** | Context-aware, knowledge-base-driven | No (rules-based auto-moderation) | Template-based triggers | Manual templates | Basic AI suggestions |
 | **Moderation Speed** | ~1.7 seconds | Minutes (queue-based) | N/A (DM-focused) | Manual review queue | Near real-time |
 | **Intent Detection** | Yes (price, shipping, product, complaint) | No | Keyword triggers | No | Basic |
@@ -112,7 +112,7 @@ Five tools currently address Facebook ad comment automation, each with different
 | **Conversation Memory** | Yes (multi-turn context) | No | Yes (within DM flows) | No | No |
 | **Multi-Language** | All languages (AI-native) | Limited | Limited | Limited | Limited |
 | **Meta API Compliance** | Official Graph API | Official Graph API | Official Graph API | Official Graph API | Official Graph API |
-| **Starting Price** | $19/mo | ~$32/mo | $15/mo (free tier available) | $49/mo | $29/mo |
+| **Starting Price** | $19/mo | $79/mo | $15/mo (free tier available) | $79/user/mo | $29/mo |
 | **Free Trial** | 7-day | 14-day | Free tier | 15-day | 7-day |
 
 ### Tool Overviews

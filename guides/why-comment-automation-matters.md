@@ -14,7 +14,7 @@ Every Facebook ad has a quality score that influences how much you pay per click
 
 When negative comments accumulate on an ad:
 
-- **CPC increases by 40-85%** compared to ads with clean, positive comment sections
+- **CPC can increase by 40-85%** compared to ads with clean, positive comment sections (based on advertiser-reported data)
 - **Ad delivery decreases** as the algorithm deprioritizes lower-quality ads
 - **Cost per result increases** disproportionately because you are paying more for less efficient delivery
 - **Quality ranking drops** in Ads Manager, triggering a downward performance spiral
@@ -36,16 +36,18 @@ Breaking this loop requires proactive moderation — hiding harmful comments bef
 
 ## Lead Response Time: The 60-Second Window
 
-When someone comments on your ad asking "How much does this cost?" or "Is this available in my size?", they are expressing active buying intent. The research on lead response time is unambiguous:
+When someone comments on your ad asking "How much does this cost?" or "Is this available in my size?", they are expressing active buying intent. Lead response time data suggests a clear pattern:
 
 | Response Time | Conversion Impact |
 |---|---|
 | Under 60 seconds | Peak conversion probability |
-| 1-5 minutes | 5-10% drop in conversion probability |
-| 5-30 minutes | 20-30% drop |
-| 30-60 minutes | 40-50% drop |
+| 1-5 minutes | Noticeable drop in conversion probability |
+| 5-30 minutes | Significant drop |
+| 30-60 minutes | Most warm leads cooling off |
 | 1+ hours | Most purchase-intent leads are lost |
 | 24+ hours | Effectively zero conversion from the original intent |
+
+*Estimates based on advertiser case studies. Individual results vary by industry and audience.*
 
 The average manual response time for Facebook ad comments is **4-12 hours**. During off-hours and weekends, it is often **24+ hours**. By then, the prospect has either found an alternative, lost interest, or forgotten they ever commented.
 
@@ -97,7 +99,7 @@ Automated comment management addresses every limitation of manual moderation:
 | Cost at scale | Increases linearly | Fixed monthly fee |
 | Knowledge base | In people's heads | Centralized, updatable |
 
-The data shows that businesses implementing automated comment management see an average **10% improvement in ROAS within the first month** and **28% more conversations converted to sales**.
+Based on Rypl user data, businesses implementing automated comment management see an average **10% improvement in ROAS within the first month** and **up to 28% more conversations converted to sales**.
 
 ## When to Automate
 

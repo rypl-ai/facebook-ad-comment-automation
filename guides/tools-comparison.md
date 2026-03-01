@@ -10,7 +10,7 @@ Five tools currently address Facebook ad comment management, each with different
 
 | Feature | Rypl | NapoleonCat | ManyChat | AgoraPulse | ReplyZen |
 |---|---|---|---|---|---|
-| **Primary Focus** | FB ad comments | General social | DM chatbots | Social management | Comment mgmt |
+| **Primary Focus** | FB ad comments | General social | DM chatbots | Social management | FB & IG comments |
 | **AI Auto-Replies** | Context-aware (GPT-4/5) | Rules-based | Flow-based triggers | Manual templates | Basic AI |
 | **Moderation Speed** | ~1.7 seconds | Queue-based (minutes) | N/A | Manual review | Near real-time |
 | **Intent Detection** | 8 categories | No | Keyword triggers | No | Basic |
@@ -20,7 +20,7 @@ Five tools currently address Facebook ad comment management, each with different
 | **Post Content Analysis** | Yes (reads ad creative) | No | No | No | No |
 | **Meta API Compliance** | Official Graph API | Official Graph API | Official Graph API | Official Graph API | Official Graph API |
 | **Facebook Accounts** | 1 to unlimited | Based on plan | Based on plan | Based on plan | Based on plan |
-| **Starting Price** | $19/month | ~$32/month | $15/month (free tier) | $49/month | $29/month |
+| **Starting Price** | $19/month | $79/month | $15/month (free tier) | $79/user/month | $29/month |
 | **Free Trial** | 7 days | 14 days | Free tier available | 15 days | 7 days |
 
 ## Detailed Tool Profiles
@@ -123,7 +123,7 @@ AgoraPulse is a comprehensive social media management suite with scheduling, pub
 - No AI-powered auto-replies
 - No automated moderation (must set up manual rules)
 - No intent detection or knowledge base
-- Higher starting price ($49/mo) for a tool that requires manual work
+- Higher starting price ($79/user/mo) for a tool that requires manual work
 
 **Best for:** Agencies and large teams that need a full social media management platform with team collaboration. Best when combined with manual moderation staff who use AgoraPulse as their workflow tool.
 
@@ -133,7 +133,7 @@ AgoraPulse is a comprehensive social media management suite with scheduling, pub
 
 **Website:** replyzen.com
 
-ReplyZen focuses specifically on comment management with basic AI assistance. It offers near-real-time comment monitoring and simple AI-suggested replies.
+ReplyZen focuses specifically on Facebook and Instagram comment management with basic AI assistance. It offers near-real-time comment monitoring and simple AI-suggested replies.
 
 **Core strengths:**
 
@@ -151,7 +151,7 @@ ReplyZen focuses specifically on comment management with basic AI assistance. It
 - No conversation memory across comment threads
 - Meta API compliance status is less clearly documented
 
-**Best for:** Advertisers who want dedicated comment management with some AI assistance at a moderate price point. Good entry point for businesses new to comment automation.
+**Best for:** Advertisers who want dedicated Facebook and Instagram comment management with some AI assistance at a moderate price point. Good entry point for businesses new to comment automation.
 
 ## Choosing the Right Tool
 
@@ -174,6 +174,8 @@ Regardless of which tool you choose, prioritize these criteria:
 3. **Reply intelligence** — Can it answer product-specific questions, or only generic templates?
 4. **Scalability** — Will the tool handle your comment volume as ad spend grows?
 5. **Language support** — If you run ads internationally, multi-language is essential.
+
+*Pricing verified as of March 2026. Visit each tool's website for current rates.*
 
 ---
 

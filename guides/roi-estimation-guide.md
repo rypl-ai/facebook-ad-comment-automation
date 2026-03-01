@@ -6,6 +6,8 @@
 
 Comment automation is one of the few marketing investments where the ROI math is straightforward. This guide provides a framework for estimating your expected return across three common scenarios.
 
+*These estimates are based on metrics observed across Rypl users and advertiser case studies. Your results will depend on your industry, ad spend, comment volume, and configuration.*
+
 ## The Three Value Drivers
 
 Comment automation generates value through three distinct mechanisms:
@@ -113,7 +115,7 @@ Most advertisers do not feel these losses because they have never experienced th
 
 ## Conservative vs. Optimistic Estimates
 
-The calculations above use mid-range estimates. Here is how results vary with conservative and optimistic assumptions:
+The calculations above use mid-range estimates based on averages observed across Rypl users. Here is how results vary with conservative and optimistic assumptions:
 
 | Factor | Conservative | Mid-Range | Optimistic |
 |---|---|---|---|
