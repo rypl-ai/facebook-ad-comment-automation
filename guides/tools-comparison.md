@@ -1,5 +1,7 @@
 # Facebook Ad Comment Automation Tools: Detailed Comparison
 
+*Last updated: October 11, 2026*
+
 [Back to Main Guide](../README.md) | [ROI Guide](roi-estimation-guide.md) | [Setup Guide](setup-guide.md)
 
 ---
@@ -41,7 +43,7 @@ Rypl replies to and moderates comments and DMs on Facebook and Instagram, plus c
 - **Replies in your brand voice** from your knowledge base (website, files and Q&A), in the language the person wrote in. On the default setting replies go out in under 60 seconds; 97% of Facebook replies go out within a minute (RYPL's own measurement).
 - **Hides spam and hate** on every plan: spam is flagged in about 1.7 seconds on average and hidden within seconds (RYPL's own measurement). Banned words and a *Filter by tone* setting (leave negative comments, or hide or delete them) are on every plan too.
 - **Reads the ad** (image, video, copy) before replying, from Pro.
-- **Runs rules written in plain words**, from Pro: moderation rules (hide, delete, reply or review first) and reply rules (let an agent answer, send a ready reply, or skip).
+- **Runs rules written in plain words**, from Pro: moderation rules (hide, delete, flag for you, or leave for you to answer, with a Review first mode) and reply rules (let an agent answer, send a ready reply, or skip).
 - **Sends what needs a person to a Needs attention queue**: complaints, urgent questions and rule matches.
 - **Remembers earlier conversations** with the same person, on Ultra.
 
@@ -115,6 +117,19 @@ ManyChat builds DM automation for Instagram, Messenger, WhatsApp and more. Its c
 5. **Languages.** If your ads run in several markets, test replies in each language before you go live.
 
 *Facts checked October 2026. Visit each tool's site for current pricing.*
+
+
+## More on rypl.is
+
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
+- [The 6 best Facebook and Instagram ad comment automation tools](https://www.rypl.is/blog/best-facebook-instagram-comment-automation-tools): a sourced comparison
+- [Rypl vs ReplyZen](https://www.rypl.is/blog/rypl-vs-replyzen): AI comment automation compared
+- [Rypl vs ManyChat](https://www.rypl.is/blog/rypl-vs-manychat): comment automation vs chatbot funnels
+- [Rypl vs NapoleonCat](https://www.rypl.is/blog/rypl-vs-napoleoncat): AI automation vs rule-based moderation
+- [Rypl vs Agorapulse](https://www.rypl.is/blog/rypl-vs-agorapulse): focused AI automation vs a full suite
+- [ManyChat alternatives for comment automation](https://www.rypl.is/blog/manychat-alternatives): 8 tools compared
+- [NapoleonCat alternatives for ad comment moderation](https://www.rypl.is/blog/napoleoncat-alternatives): compared with sources
+- [Agorapulse alternatives for ad comment moderation](https://www.rypl.is/blog/agorapulse-alternatives): compared with sources
 
 ---
 

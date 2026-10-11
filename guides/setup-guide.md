@@ -1,5 +1,7 @@
 # Step-by-Step Setup Guide for Facebook Ad Comment Automation
 
+*Last updated: October 11, 2026*
+
 [Back to Main Guide](../README.md) | [Best Practices](best-practices.md) | [ROI Guide](roi-estimation-guide.md)
 
 ---
@@ -85,8 +87,19 @@ Every day:
 
 After two to four weeks, compare ROAS, cost per result, quality ranking and reply time with the numbers you noted before. The [ROI guide](roi-estimation-guide.md) explains how.
 
+
+## More on rypl.is
+
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
+- [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool): replies and moderation for comments on TikTok ads
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to see and reply to comments on Facebook ads](https://www.rypl.is/blog/how-to-see-comments-on-facebook-ads): find every ad comment, dark posts included
+- [Instagram ad comment automation guide](https://www.rypl.is/blog/instagram-ad-comment-automation-guide): permissions, Reels and DMs
+- [How to manage comments on TikTok ads](https://www.rypl.is/blog/how-to-manage-tiktok-ad-comments): the complete guide
+
 ---
 
 **Need help?** See the [Rypl documentation](https://rypl-ai.github.io/docs/) or email [hey@rypl.is](mailto:hey@rypl.is).
 
-*Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is). Last reviewed October 2026.*
+*Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is).*

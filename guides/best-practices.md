@@ -1,5 +1,7 @@
 # Best Practices for Facebook Ad Comment Automation
 
+*Last updated: October 11, 2026*
+
 [Back to Main Guide](../README.md) | [Tools Comparison](tools-comparison.md) | [Setup Guide](setup-guide.md)
 
 ---
@@ -133,8 +135,18 @@ If every reply needs a person's approval before it posts, the speed advantage di
 4. **Replying to everything.** "Nice" doesn't need an answer.
 5. **Set and forget.** Prices, stock and policies change; the knowledge base has to change with them.
 
+
+## More on rypl.is
+
+- [How to respond to negative comments on Facebook](https://www.rypl.is/guides/respond-to-negative-comments-on-facebook): when to answer, hide or escalate
+- [How to stop spam comments on Facebook](https://www.rypl.is/guides/stop-spam-comments-on-facebook): Meta's filters and automatic hiding
+- [How to hide comments on Facebook ads automatically](https://www.rypl.is/blog/hide-comments-on-facebook-ads): where Meta's tools stop and rules in plain words take over
+- [How to detect buying intent in ad comments](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
+- [AI vs rule-based comment automation](https://www.rypl.is/blog/ai-vs-rule-based-comment-automation): what actually works on Facebook
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
+
 ---
 
 **Next:** [Set it up step by step →](setup-guide.md)
 
-*Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is). Last reviewed October 2026.*
+*Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is).*

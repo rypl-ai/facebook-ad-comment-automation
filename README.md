@@ -1,5 +1,7 @@
 # Facebook Ad Comment Automation: The Complete Guide (2026)
 
+*Last updated: October 11, 2026*
+
 **How to automate replies and moderation for the comments under your Facebook ads, and the same for Instagram and TikTok ads: why it matters, how it works, which tools do it and how to set it up.**
 
 Every ad that runs collects comments: buyers asking about price and shipping, customers with a complaint, spammers and scammers, and fans. What happens in that thread is public. Every later viewer reads it before deciding whether to click, and Meta's delivery system notices whether people engage with the ad or hide it.
@@ -214,6 +216,18 @@ The [Setup Guide](guides/setup-guide.md) covers each step in detail.
 
 ---
 
+## More on rypl.is
+
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
+- [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool): replies and moderation for comments on TikTok ads
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
+- [Comment management guides](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026 (CC BY 4.0)
+
+---
+
 ## Contributing
 
 Found an error or a fact that has changed? Open an issue or a pull request. This guide is licensed under [CC BY 4.0](LICENSE): share and adapt it with attribution.
@@ -226,4 +240,4 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ---
 
-*Maintained by [Rypl](https://www.rypl.is): AI replies and moderation for Facebook, Instagram and TikTok ad comments. Last reviewed October 2026.*
+*Maintained by [Rypl](https://www.rypl.is): AI replies and moderation for Facebook, Instagram and TikTok ad comments.*

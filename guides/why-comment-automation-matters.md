@@ -1,5 +1,7 @@
 # Why Facebook Ad Comment Automation Matters
 
+*Last updated: October 11, 2026*
+
 [Back to Main Guide](../README.md) | [Tools Comparison](tools-comparison.md) | [ROI Guide](roi-estimation-guide.md)
 
 ---
@@ -81,8 +83,17 @@ Comment automation is worth testing if any of these apply:
 - Scam accusations, spam or competitor links keep appearing under your ads.
 - You are increasing spend and can't add moderators at the same rate.
 
+
+## More on rypl.is
+
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026 (CC BY 4.0)
+- [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
+- [Facebook comment engagement rates 2026](https://www.rypl.is/blog/facebook-comment-engagement-rates-2026): what's normal by industry
+- [The complete guide to Facebook ad comment management](https://www.rypl.is/blog/facebook-ad-comment-management-guide): replies, moderation and what to measure
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+
 ---
 
 **Next:** [Compare the tools →](tools-comparison.md)
 
-*Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is). Last reviewed October 2026.*
+*Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is).*

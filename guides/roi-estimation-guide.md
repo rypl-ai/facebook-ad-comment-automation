@@ -1,5 +1,7 @@
 # ROI Estimation Guide for Facebook Ad Comment Automation
 
+*Last updated: October 11, 2026*
+
 [Back to Main Guide](../README.md) | [Tools Comparison](tools-comparison.md) | [Best Practices](best-practices.md)
 
 ---
@@ -113,8 +115,16 @@ Estimates are for deciding whether to test. Then measure:
 
 For reference: the cleanest public A/B test, by [BrandBastion at MindValley](https://blog.brandbastion.com/how-to-measure-community-management-roi), measured +48% ROAS with comment management as the only variable. That is the upper end of published results. Across RYPL accounts the lift was about +10% ROAS in the first month (RYPL's own measurement). Your result will depend on your comment volume, your product and how good the answers are.
 
+
+## More on rypl.is
+
+- [Meta ads ROAS in 2026](https://www.rypl.is/blog/meta-ads-roas-2026): what's realistic by industry, with a calculator
+- [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026 (CC BY 4.0)
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+
 ---
 
 **Next:** [Best practices for configuration →](best-practices.md)
 
-*Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is). Last reviewed October 2026.*
+*Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is).*
