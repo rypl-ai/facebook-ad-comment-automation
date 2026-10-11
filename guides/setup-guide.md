@@ -1,200 +1,105 @@
 # Step-by-Step Setup Guide for Facebook Ad Comment Automation
 
+*Last updated: October 11, 2026*
+
 [Back to Main Guide](../README.md) | [Best Practices](best-practices.md) | [ROI Guide](roi-estimation-guide.md)
 
 ---
 
-This walkthrough uses [Rypl](https://www.rypl.is) as the example tool, but the general process applies to any comment automation platform. The setup takes approximately 15-30 minutes.
+This walkthrough uses [Rypl](https://www.rypl.is) as the example tool; the order of steps is the same in most tools. Setup takes a few minutes, plus the time to gather your facts.
 
-## Prerequisites
+## Before you start
 
-Before you start, make sure you have:
+- **Admin access** to the Facebook Page that runs your ads. Instagram accounts must be professional accounts linked to that Page.
+- For TikTok ads, access to the TikTok ad account.
+- **Your facts:** your website, prices, shipping and returns, and the questions customers ask most.
+- **A baseline:** note ROAS, cost per result and typical reply time for the ads you'll compare.
 
-- An active Facebook Page connected to your ad account
-- Admin access to that Facebook Page
-- At least one ad campaign currently running (so you can test with real comments)
-- Your product/service information ready to upload (catalogs, FAQs, policies)
+## Step 1: Create an account and describe your business
 
-## Step 1: Create Your Account
+Sign up at [app.rypl.is/signup](https://app.rypl.is/signup). Describe your business in a few sentences; Rypl builds a starting AI agent and a starter set of moderation rules from it. Every plan starts with a 7-day free trial.
 
-Sign up at [app.rypl.is/signup](https://app.rypl.is/signup). All plans include a 7-day free trial — no credit card required to start.
-
-**Choose your plan based on your needs:**
-
-| If you... | Recommended Plan |
+| If you… | Plan |
 |---|---|
-| Run 1 Facebook Page, getting started | Simple ($19/mo) |
-| Run up to 20 pages, need AI intelligence | Pro ($49/mo) |
-| Run an agency with unlimited clients | Ultra ($89/mo) |
+| Run one business with up to 3 pages | Simple, $19/mo |
+| Run several pages or brands and want rules in plain words | Pro, $49/mo |
+| Run an agency or need unlimited accounts and pages | Ultra, $89/mo |
 
-You can always upgrade later. Start with Simple if you want to test the waters.
+No plan limits the number of comments.
 
-## Step 2: Connect Your Facebook Page
+## Step 2: Connect your channels
 
-After creating your account, you will be prompted to connect your Facebook Page through Meta's OAuth flow:
+- **Facebook:** click **Connect Facebook** and choose **Business profile** (through your Meta Business portfolio, no re-login) or **Personal profile**. Allow the permissions and select your Pages.
+- **Instagram:** comes with the Facebook Page it is linked to.
+- **TikTok:** click **Connect TikTok** and authorize your ad account. Rypl handles TikTok ad comments; organic TikTok posts aren't supported.
 
-1. Click "Connect Facebook Page"
-2. Log in with your Facebook account (must have admin access to the Page)
-3. Select which Pages you want Rypl to manage
-4. Grant the requested permissions
+Everything connects through the official Meta Graph API and TikTok Marketing API.
 
-**Permissions explained:**
+## Step 3: Fill the knowledge base
 
-- **Read page content**: Allows the tool to see comments on your ads and posts
-- **Manage page conversations**: Allows the tool to respond to comments and hide spam
-- **Read page insights**: Allows the tool to access engagement metrics
+This step decides how good the answers are.
 
-All access is through the official Meta Graph API. Your credentials are never stored — the tool receives an access token from Meta directly.
+- **Website:** links in replies point here, and the agent can learn from the page.
+- **Q&A:** your most common questions, with the exact answers you want given.
+- **Documents:** up to 3 files (PDF, TXT, DOC, DOCX or CSV), such as a price list, size chart or returns policy.
 
-**Troubleshooting connection issues:**
+Be specific: "Ships to the US in 3 to 5 business days, free over $50" beats "Shipping is fast".
 
-- Make sure you are an admin (not just an editor) of the Facebook Page
-- If the Page does not appear in the list, check that it is published and not restricted
-- Try disconnecting and reconnecting if you recently changed Page roles
+## Step 4: Set the agent's voice
 
-## Step 3: Prepare and Upload Your Knowledge Base
+- **Tone:** Neutral, Seller, Positive or Direct.
+- **Instructions** (up to 4,000 characters): reply length, words to use and avoid, what to say when the agent doesn't know.
+- **Where it replies:** comments and messages, comments only, or messages only.
+- **How soon:** immediately (default), within a few minutes, within an hour or within a day.
 
-This is the most important step. The quality of automated replies depends entirely on the quality of the information you provide.
+On Pro and Ultra, turn on **Read the post** so the agent knows which product an ad shows.
 
-### What to Upload
+## Step 5: Set moderation
 
-**Product catalog** (recommended: PDF or CSV)
-- Product names, descriptions, prices
-- Available sizes, colors, variants
-- Stock status / availability
-- Key features and specifications
+- **Spam and hate** are hidden automatically.
+- **Banned words:** competitor names, rival domains, slurs. `"word"` in quotes matches only the whole word.
+- **Filter by tone:** off by default. Leave it off unless your ads draw hostility; complaints should reach a person.
+- **Strict Spam & Media Filter:** for ads that attract link spam.
+- **Moderation rules** (Pro and Ultra): write them in plain words, for example *hide comments that recommend another store*, and start them in **Review first**.
 
-**FAQ document** (recommended: CSV with Question and Answer columns)
-- Top 20-50 questions customers ask
-- Clear, concise answers for each
-- Include questions about shipping, returns, sizing, compatibility
+## Step 6: Go live
 
-**Brand voice guidelines** (recommended: TXT)
-- Your brand's tone (casual, professional, friendly)
-- Phrases you commonly use
-- Phrases or terms to avoid
-- How to handle different types of inquiries
+In each channel's **AI replies** settings, switch on **Reply with AI** and choose the agent. Moderation runs even with replies off.
 
-**Shipping and return policies** (recommended: TXT)
-- Delivery timeframes by region
-- Shipping costs or free shipping thresholds
-- Return window and conditions
-- Refund processing time
+## Step 7: Check the first week
 
-**Website URL**
-- Your store or landing page
-- The AI can reference this for real-time product data
+Every day:
 
-### Tips for Better Knowledge Base
+- [ ] Read the replies in the inbox; each shows the agent that wrote it.
+- [ ] Check **All hidden or deleted** and unhide mistakes.
+- [ ] Clear **Needs attention**: complaints and rule matches.
+- [ ] Add missing facts to the knowledge base.
 
-- Be specific: "Shipping takes 3-5 business days to US addresses" is better than "Shipping is fast"
-- Keep information current: remove discontinued products, update seasonal promotions
-- Include pricing: if the AI does not know prices, it cannot answer the most common question
-- Cover edge cases: what happens if an item is out of stock? what about international orders?
-
-## Step 4: Configure Brand Voice
-
-Set the parameters for how the AI communicates with your audience:
-
-**Tone**: Choose between casual, balanced, or professional. Most e-commerce brands work best with "balanced."
-
-**Response length**: Set a target length for replies. For ad comments, 1-3 sentences is ideal — long responses get ignored in comment threads.
-
-**Language behavior**: The AI automatically detects the language of each comment and responds in the same language. If you serve specific markets, you can prioritize certain languages.
-
-**Custom instructions**: Add any specific guidance:
-- "Always include a link to our store when answering product questions"
-- "Never discuss competitor products"
-- "Use the customer's first name if they mention it"
-- "Include emoji sparingly" or "Do not use emoji"
-
-## Step 5: Set Moderation Rules
-
-Define what should be automatically hidden:
-
-### Default rules (recommended to keep enabled)
-
-- Profanity and offensive language
-- Spam patterns (repeated text, excessive links, promotional comments)
-- Known bot patterns
-
-### Custom rules to consider
-
-- **Competitor brand names**: Hide comments mentioning specific competitors
-- **Negative keywords**: Industry-specific terms that indicate harmful content
-- **URL patterns**: Block links to competing stores or irrelevant websites
-- **Sensitivity level**: Adjust how aggressively the moderation filters content (start moderate, adjust based on false positive rate)
-
-### What NOT to hide
-
-- Legitimate complaints (these need a response, not suppression)
-- Questions that seem negative but are genuine inquiries
-- Comments in languages you do not recognize (the AI handles multi-language natively)
-
-## Step 6: Activate Your AI Agent
-
-Enable automated replies and moderation:
-
-1. Select which Facebook Pages to activate on
-2. Choose which ad campaigns to include (start with one to test)
-3. Enable moderation (spam hiding)
-4. Enable auto-replies
-5. Set operating hours (24/7 recommended — this is the whole point)
-
-**Recommended approach**: Start with a single campaign that receives moderate comment volume (20-50 comments/day). This gives you enough data to evaluate performance without risking your highest-performing campaigns during the learning period.
-
-## Step 7: Monitor and Optimize (First Week)
-
-The first week is critical. Plan to spend 15-20 minutes per day reviewing the automation's performance.
-
-### Daily checklist
-
-- [ ] Review all automated replies from the past 24 hours
-- [ ] Check hidden comments for false positives (legitimate comments incorrectly hidden)
-- [ ] Note any questions the AI answered incorrectly or incompletely
-- [ ] Check response time metrics (should be under 60 seconds)
-- [ ] Compare ad quality metrics to your pre-automation baseline
-
-### Common first-week adjustments
-
-| Issue | Solution |
+| Problem | Fix |
 |---|---|
-| AI gives incorrect product info | Update knowledge base with correct data |
-| Too many comments being hidden | Lower moderation sensitivity |
-| Legitimate complaints being hidden | Add exceptions to moderation rules |
-| Replies are too long/short | Adjust response length in brand voice settings |
-| Replies sound too formal/casual | Adjust tone settings or provide example replies |
-| AI cannot answer certain questions | Add that information to knowledge base |
+| Wrong product facts | Update the knowledge base |
+| Real comments hidden | Narrow the banned word (use quotes) or the rule |
+| Replies too long or too formal | Adjust instructions or tone |
+| The agent can't answer a common question | Add it as Q&A, or run **Suggest improvements** |
+| A topic the AI shouldn't touch | Add a **Don't reply** reply rule (Pro and Ultra) |
 
-### After the first week
+## Step 8: Compare with your baseline
 
-- Expand to additional campaigns
-- Reduce review frequency to every other day, then weekly
-- Start tracking ROAS and CPC improvements against your baseline
-- Update the knowledge base as you discover new common questions
+After two to four weeks, compare ROAS, cost per result, quality ranking and reply time with the numbers you noted before. The [ROI guide](roi-estimation-guide.md) explains how.
 
-## What to Expect
 
-### First 24 hours
+## More on rypl.is
 
-- The AI begins responding to new comments on activated campaigns
-- Spam and negative comments start getting hidden
-- You will see response time drop dramatically
-
-### First week
-
-- AI reply quality improves as it processes more context from your knowledge base
-- You will identify gaps in your knowledge base content
-- Comment threads start looking cleaner and more engaging
-
-### First month
-
-- Expect approximately 10% improvement in ROAS from combined moderation and reply effects
-- Ad quality scores should begin improving in Ads Manager
-- Your team has significantly more time freed up from manual comment management
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
+- [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool): replies and moderation for comments on TikTok ads
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to see and reply to comments on Facebook ads](https://www.rypl.is/blog/how-to-see-comments-on-facebook-ads): find every ad comment, dark posts included
+- [Instagram ad comment automation guide](https://www.rypl.is/blog/instagram-ad-comment-automation-guide): permissions, Reels and DMs
+- [How to manage comments on TikTok ads](https://www.rypl.is/blog/how-to-manage-tiktok-ad-comments): the complete guide
 
 ---
 
-**Need help?** Visit the [Rypl Documentation](https://rypl-ai.github.io) for detailed guides on every feature, or contact [hey@rypl.is](mailto:hey@rypl.is).
+**Need help?** See the [Rypl documentation](https://rypl-ai.github.io/docs/) or email [hey@rypl.is](mailto:hey@rypl.is).
 
 *Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is).*

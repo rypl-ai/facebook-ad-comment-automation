@@ -1,167 +1,152 @@
 # Best Practices for Facebook Ad Comment Automation
 
+*Last updated: October 11, 2026*
+
 [Back to Main Guide](../README.md) | [Tools Comparison](tools-comparison.md) | [Setup Guide](setup-guide.md)
 
 ---
 
-Automation works best when configured thoughtfully. This guide covers the strategies that separate effective comment management from mediocre automation.
+Automation works when it is set up around what each comment wants, fed with accurate facts and checked by a person in the first weeks. These practices apply whichever tool you use; where a tool setting is named, it is Rypl's.
 
-## Comment Triage: A Framework
+## Comment triage
 
-Not all comments deserve the same treatment. An effective automation strategy categorizes comments and applies the appropriate action to each type.
+Decide in advance what happens to each kind of comment.
 
-### Category 1: Block Immediately
+### Hide: spam, scams and abuse
 
-These comments should be hidden within seconds, before they influence ad quality or other viewers:
+- **Spam:** links to other shops, self-promotion, bot text.
+- **Scams:** fake "customer service" accounts, phishing links, "DM me to claim your prize".
+- **Hate and abuse:** slurs, threats, harassment.
+- **Competitor names and links:** add them as banned words.
 
-- **Spam**: Irrelevant links, promotions for other products, bot-generated comments
-- **Competitor mentions**: Direct references to competing brands or products
-- **Offensive content**: Profanity, hate speech, discriminatory language
-- **Scam attempts**: Phishing links, fake customer service accounts
+Hide these within seconds and don't reply. Hiding on Facebook keeps a comment visible to its author and their friends, so they aren't told and don't escalate ([Facebook Help: Hide or unhide a comment](https://www.facebook.com/help/297845860255949)). On TikTok ads, hiding is the only option for comments other people leave.
 
-**Action**: Auto-hide. No response needed. These comments only damage your ad performance.
+### Answer: questions from buyers
 
-### Category 2: Reply with Priority
+- **Price:** "How much?", "Any discount?"
+- **Availability:** "Is it in stock?", "Does it come in blue?"
+- **Product details:** sizes, materials, compatibility.
+- **Shipping:** delivery times, countries, costs.
 
-These comments represent active buying interest and should receive an immediate, accurate response:
+Answer from your knowledge base, in the language the person wrote in, with a clear next step (a link, or how to order). In [RYPL's Q3 2026 data](https://www.rypl.is/blog/ad-comment-statistics-2026), 38% of analyzed comments showed buying intent, and almost all of it came as a question.
 
-- **Price inquiries**: "How much?", "What's the cost?", "Any discounts?"
-- **Purchase intent**: "I want this", "How do I order?", "Is it available?"
-- **Product questions**: "What size options?", "Does it come in blue?", "Is this compatible with...?"
-- **Shipping questions**: "How long does delivery take?", "Do you ship to [country]?"
+### Send to a person: complaints and anything sensitive
 
-**Action**: Auto-reply within 60 seconds using knowledge base data. Include specific product information, pricing, and a clear next step (link to store, "DM us to order", etc.).
+- Complaints about an order, delivery or quality.
+- Refund and return requests.
+- Legal, medical or safety questions.
+- Anything the knowledge base can't answer.
 
-### Category 3: Acknowledge and Escalate
+Don't hide a legitimate complaint by default: other viewers notice when criticism disappears. Answer it publicly, or acknowledge it and continue in private, and make sure a person picks it up. In Rypl these go to the **Needs attention** queue. If your ads attract a lot of hostility, Rypl's *Filter by tone* setting can hide or delete negative comments; it is off by default.
 
-These comments need a response but may require human judgment:
+### Thank: praise
 
-- **Complaints**: Product issues, service problems, bad experiences
-- **Return/refund requests**: Policy questions, dissatisfied customers
-- **Complex technical questions**: Questions the AI cannot answer from the knowledge base
+"Love this!", "Best purchase ever", friends tagging friends. A short thank-you or a like keeps the thread warm. In Rypl, thank-you replies are a setting from the Pro plan.
 
-**Action**: Auto-acknowledge ("Thank you for reaching out — we're looking into this and will follow up shortly"), then flag for human review. Never ignore complaints publicly — other viewers are watching how you handle them.
+### Leave alone: noise
 
-### Category 4: Amplify
+"Nice", a single emoji, a friend tag with nothing else. Not every comment needs a reply, and replying to all of them makes the thread look automated.
 
-These comments benefit your ad performance and should be encouraged:
+## Knowledge base
 
-- **Positive feedback**: "Love this product!", "Great customer service!"
-- **Testimonials**: Users sharing positive experiences
-- **Friend tags**: "@John check this out"
+Automated answers are as good as the facts behind them.
 
-**Action**: Auto-like. Reply with a genuine thank-you. These comments serve as social proof and improve ad quality signals.
+### What to include
 
-## Knowledge Base Optimization
+| Content | What to put in it |
+|---|---|
+| Your website | Product pages, FAQ, shipping and returns pages |
+| Product facts | Prices, variants, sizes, materials, what's in the box |
+| Shipping | Delivery times by country, costs, free-shipping threshold |
+| Returns | Window, conditions, how to start a return |
+| Top questions | The 20 to 50 questions you get most, with the answer you want given |
+| Things not to say | Claims you can't make, competitors not to mention |
 
-The quality of automated replies is directly proportional to the quality of your knowledge base. Garbage in, garbage out.
+### Keep it current
 
-### What to Include
+- **When prices, stock or promotions change:** update the same day.
+- **Weekly at first:** read the questions the AI answered badly or couldn't answer, and add the missing facts.
+- **Before a launch or sale:** add the offer, its dates and its conditions.
 
-| Content Type | Format | What to Include |
-|---|---|---|
-| Product catalog | PDF or CSV | Names, descriptions, prices, variants, availability |
-| FAQ document | CSV or TXT | Top 20-50 most common questions with approved answers |
-| Shipping policy | TXT | Delivery times by region, costs, free shipping thresholds |
-| Return policy | TXT | Return window, conditions, refund process, exchange options |
-| Brand voice guide | TXT | Tone, formality, phrases to use, phrases to avoid |
-| Website URL | Link | Your store or landing page for real-time product data |
+Fix wrong answers at the source. Correcting one reply by hand leaves the next one wrong.
 
-### Maintenance Schedule
+### Common mistakes
 
-Your knowledge base is not a "set and forget" asset:
+- **Vague copy:** "great quality at great prices" gives the AI nothing to quote.
+- **Stale facts:** last season's prices or a discontinued product.
+- **Contradictions:** different shipping times on two pages.
+- **Missing policies:** without a returns policy, every returns question gets a hedge.
 
-- **Weekly**: Review auto-generated replies for accuracy. Note any incorrect or incomplete answers.
-- **Monthly**: Update product catalog with new items, price changes, discontinued products.
-- **Quarterly**: Refresh FAQ document based on trending questions. Update seasonal information.
-- **As needed**: Update shipping times during peak seasons, add new product launches, modify policies.
+## Brand voice
 
-### Common Knowledge Base Mistakes
+### Be specific
 
-- **Too vague**: "We have great products at great prices" — the AI needs specifics
-- **Outdated information**: Last season's pricing or discontinued products still in the catalog
-- **Missing policies**: No shipping or return information leads to evasive replies
-- **Contradictory data**: Different prices in different documents confuse the AI
+"Be friendly" is not an instruction. These are:
 
-## Brand Voice Consistency
+- "Two sentences at most for simple questions."
+- "Use the person's first name if it's in their profile name."
+- "One emoji at most, and none in replies to complaints."
+- "Say 'collection', never 'product line'."
+- "When we don't know, say so and point to hey@yourbrand.com."
 
-Automated replies should be indistinguishable from your best human team member's responses. This requires careful voice configuration.
+### Match the audience
 
-### Define Your Tone Spectrum
-
-| Setting | Casual | Balanced | Professional |
+| | Casual | Balanced | Professional |
 |---|---|---|---|
 | Greeting | "Hey!" | "Hi there!" | "Hello," |
-| Product mention | "This one's awesome" | "This is a great choice" | "This product features..." |
-| CTA | "Grab it here" | "You can order at" | "Please visit our store at" |
-| Sign-off | "Cheers!" | "Let us know if you have questions!" | "We appreciate your interest." |
+| Product mention | "This one's a favourite" | "This is a great choice" | "This model includes…" |
+| Next step | "Grab it here" | "You can order here" | "Please see our store" |
 
-Most e-commerce brands perform best with a **balanced** tone. B2B and professional services typically need a more professional voice.
+Most consumer brands do best with a balanced tone; B2B and regulated industries need a more professional one. In languages with formal and informal "you" (French *tu/vous*, German *du/Sie*), say which to use.
 
-### Voice Configuration Tips
+## Speed
 
-1. **Provide examples**: Give the AI 5-10 sample replies that represent your ideal tone
-2. **Set length limits**: Comment replies should be concise — 2-3 sentences maximum for simple questions
-3. **Define terminology**: If your brand calls things specific names (e.g., "collection" instead of "product line"), specify this
-4. **Handle emoji policy**: Some brands use emojis liberally, others avoid them entirely. Be explicit.
-5. **Set escalation language**: Define how the AI should phrase "I need to pass this to a human" responses
+- **Replies:** aim for under a minute on questions. Rypl's default *How soon* setting is *Immediately*; you can choose a few minutes, an hour or a day if instant replies feel wrong for your brand.
+- **Hiding:** spam and scam links should be gone within seconds, before the next viewer scrolls past them.
+- **People:** set a target for how fast someone picks up the Needs attention queue, for example within business hours the same day.
 
-## Response Time Optimization
+If every reply needs a person's approval before it posts, the speed advantage disappears. Check replies after they go out instead, closely at first.
 
-Even with automation, there are configurations that affect response speed:
+## Monitoring
 
-### Priority Queue Configuration
+### Week 1: every day
 
-Not all comments need the same response speed:
+- Read every automated reply.
+- Check every hidden comment and unhide mistakes.
+- List the questions answered badly and add the facts to the knowledge base.
 
-| Priority | Comment Type | Target Response Time |
-|---|---|---|
-| Critical | Purchase intent | Under 30 seconds |
-| High | Price/shipping inquiries | Under 60 seconds |
-| Medium | Product questions | Under 2 minutes |
-| Low | General comments | Under 5 minutes |
+### Weeks 2 to 4: a few times a week
 
-### Factors That Slow Responses
+- Read a sample of replies.
+- Look for patterns in hidden comments: a banned word that catches real customers, or spam that gets through.
+- Compare ROAS, cost per result and Meta's [quality ranking](https://www.facebook.com/business/help/303639570334185) with your baseline.
 
-- **Overly complex moderation rules**: Too many custom keyword rules can create processing bottlenecks
-- **Large, unoptimized knowledge bases**: Clean and organize your data rather than dumping everything in
-- **Multiple approval layers**: If replies require human approval before posting, the speed advantage disappears
+### After the first month: weekly
 
-## Monitoring and Optimization Loop
+- Sample replies and hidden comments.
+- Update the knowledge base as products and policies change.
+- Watch what people ask most; it often shows what the ad copy leaves out.
 
-Effective automation requires ongoing attention, especially in the first 30 days.
+## Mistakes to avoid
 
-### Week 1: Daily Review
+1. **Going live without a knowledge base.** Generic replies make a brand look careless.
+2. **Hiding all negative comments.** Legitimate complaints deserve an answer; hiding them all looks suspicious.
+3. **Over-broad banned words.** A short word set to match anywhere catches innocent comments. In Rypl, `scam` matches words that start with "scam", `*scam*` matches it anywhere, and `"scam"` matches only the whole word.
+4. **Replying to everything.** "Nice" doesn't need an answer.
+5. **Set and forget.** Prices, stock and policies change; the knowledge base has to change with them.
 
-- Read every auto-generated reply
-- Check every hidden comment for false positives (legitimate comments incorrectly flagged)
-- Note any questions the AI could not answer (knowledge base gaps)
-- Adjust moderation sensitivity if needed
 
-### Weeks 2-4: Every Other Day
+## More on rypl.is
 
-- Sample 20-30% of replies for quality
-- Review hidden comment log for patterns
-- Check ad quality metrics in Ads Manager (compare to pre-automation baseline)
-- Update knowledge base with new FAQs discovered from comment patterns
-
-### Month 2+: Weekly
-
-- Review reply quality samples
-- Check ROAS and CPC trends
-- Update knowledge base as products/policies change
-- Adjust intent detection priorities based on conversion data
-
-## Common Mistakes to Avoid
-
-1. **Automating without a knowledge base**: Generic AI replies are worse than no reply — they make your brand look careless
-2. **Hiding all negative comments**: Some complaints are legitimate and deserve a public response. Hiding everything looks suspicious to other viewers.
-3. **Setting and forgetting**: Products change, policies change, FAQs change. Your automation must change with them.
-4. **Over-replying**: Not every comment needs a response. "LOL" and "nice" do not require AI-generated replies.
-5. **Ignoring metrics**: If CPC is not improving after 2 weeks, something in your configuration needs adjustment — usually the moderation rules or knowledge base quality.
+- [How to respond to negative comments on Facebook](https://www.rypl.is/guides/respond-to-negative-comments-on-facebook): when to answer, hide or escalate
+- [How to stop spam comments on Facebook](https://www.rypl.is/guides/stop-spam-comments-on-facebook): Meta's filters and automatic hiding
+- [How to hide comments on Facebook ads automatically](https://www.rypl.is/blog/hide-comments-on-facebook-ads): where Meta's tools stop and rules in plain words take over
+- [How to detect buying intent in ad comments](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
+- [AI vs rule-based comment automation](https://www.rypl.is/blog/ai-vs-rule-based-comment-automation): what actually works on Facebook
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
 
 ---
 
-**Next:** [Set up your automation step by step →](setup-guide.md)
+**Next:** [Set it up step by step →](setup-guide.md)
 
 *Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is).*

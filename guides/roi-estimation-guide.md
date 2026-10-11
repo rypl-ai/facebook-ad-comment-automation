@@ -1,142 +1,130 @@
 # ROI Estimation Guide for Facebook Ad Comment Automation
 
+*Last updated: October 11, 2026*
+
 [Back to Main Guide](../README.md) | [Tools Comparison](tools-comparison.md) | [Best Practices](best-practices.md)
 
 ---
 
-Comment automation is one of the few marketing investments where the ROI math is straightforward. This guide provides a framework for estimating your expected return across three common scenarios.
+This guide gives you a way to estimate what comment automation is worth for your ads before you pay for it, and a way to measure it afterwards. Use your own numbers. Averages, including RYPL's, tell you little about one advertiser's comment section.
 
-*These estimates are based on metrics observed across Rypl users and advertiser case studies. Your results will depend on your industry, ad spend, comment volume, and configuration.*
+## Where the value comes from
 
-## The Three Value Drivers
+1. **Buyers answered in time.** Questions under ads are buying intent. In [RYPL's Q3 2026 data](https://www.rypl.is/blog/ad-comment-statistics-2026), 40% of analyzed comments were questions and 38% showed buying intent. A question answered while the person is still on the ad converts more often than one answered the next morning.
+2. **A cleaner thread.** Spam, scam claims and unanswered complaints give every later viewer a reason not to buy, and a reason to hide or report the ad, which feeds Meta's [quality ranking](https://www.facebook.com/business/help/303639570334185).
+3. **Hours back.** The time your team spends reading, answering and hiding comments.
 
-Comment automation generates value through three distinct mechanisms:
+The first two show up in conversion rate and ROAS; the third in payroll. Estimate the first and third. Measure the second rather than assuming it.
 
-### 1. CPC Savings (Moderation Effect)
+## Step 1: Collect your inputs
 
-By hiding negative and spam comments before they influence ad quality scores, you protect your CPC from the Comment Tax. Advertisers who implement automated moderation typically see a **10% improvement in ROAS** within the first month, which translates directly to lower CPCs and more efficient ad delivery.
-
-### 2. Conversion Improvement (Reply Speed Effect)
-
-Responding to purchase-intent comments within 60 seconds instead of hours captures leads at peak buying interest. The conversion improvement varies by industry, but **15-28% more comment-based leads convert** when response time drops to under a minute.
-
-### 3. Labor Savings (Automation Effect)
-
-Even if you were not moderating comments before, the time your team spends reviewing and responding to comments has a cost. For teams that already moderate manually, the labor savings are immediate and measurable.
-
-## Scenario 1: Small Business ($2,000/month Ad Spend)
-
-| Metric | Value |
+| Input | How to get it |
 |---|---|
-| Monthly ad spend | $2,000 |
-| Daily comments | ~15-25 |
-| Current response time | 6+ hours (owner handles when available) |
-| Current moderation | None |
-| **Tool cost** | **$19/month (Simple plan)** |
+| Comments per day | Count a week of comments across your active ads |
+| Share that are questions | Tag that week's comments by hand: question, praise, complaint, spam |
+| Share of questions answered late or never | Compare reply times with comment times for your last 50 questions; count anything over an hour as late |
+| Conversion when answered quickly vs late | If you can't measure it, start with a cautious guess and test it (Step 4) |
+| Average order value | Your store |
+| Hours spent on comments per month | Ask whoever does it |
+| Hourly cost | Salary or contractor rate |
 
-**Expected returns:**
+## Step 2: Run the formula
 
-- **CPC Savings**: $2,000 x 10% = **$200/month**
-- **Conversion Improvement**: 3-5 additional sales/month from faster replies. At $40 average order value = **$120-$200/month**
-- **Labor Savings**: 30-60 minutes/day freed up for the business owner = valuable but hard to quantify
+```
+Recovered sales = Comments per month
+                × share that are questions
+                × share answered late or never
+                × (conversion when answered quickly − conversion when answered late)
+                × average order value
 
-**Total monthly value**: ~$320-$400
-**Monthly cost**: $19
-**ROI**: ~1,600-2,000%
-**Payback period**: Under 2 days
+Labor saved     = Hours per month on comments × hourly cost
+                  (keep the hours a person still spends on complaints and Needs-attention items)
 
-### Key Insight
+Monthly value   = Recovered sales + Labor saved
 
-Even at modest ad spend, the $19/month cost is negligible compared to the value of protecting ad quality and capturing even a handful of additional sales.
+ROI             = (Monthly value − Tool cost) ÷ Tool cost
+```
 
-## Scenario 2: Mid-Size E-commerce ($10,000/month Ad Spend)
+## Step 3: Worked examples (hypothetical)
 
-| Metric | Value |
+These show how the formula behaves. The inputs are assumptions, not benchmarks.
+
+### Small store, $2,000/month ad spend
+
+| Input | Value |
 |---|---|
-| Monthly ad spend | $10,000 |
-| Daily comments | ~80-150 |
-| Current response time | 2-4 hours (part-time social media manager) |
-| Current moderation | Basic (manager checks 2-3x daily) |
-| **Tool cost** | **$49/month (Pro plan)** |
+| Comments per day | 20 |
+| Questions | 40% |
+| Answered late or never | 60% (the owner answers in the evening) |
+| Conversion: quick vs late | 8% vs 2% |
+| Average order value | $40 |
+| Hours on comments | 15 a month at $20 |
+| Tool | $19/month (Rypl Simple) |
 
-**Expected returns:**
+- Recovered sales: 20 × 30 × 40% × 60% × 6% × $40 = **$346**
+- Labor saved: 15 × $20 = **$300**
+- ROI: ($646 − $19) ÷ $19 ≈ **33×**
 
-- **CPC Savings**: $10,000 x 10% = **$1,000/month**
-- **Conversion Improvement**: 15-25 additional sales/month. At $60 average order value = **$900-$1,500/month**
-- **Labor Savings**: 2-3 hours/day of social media manager time redirected to strategy. At $25/hour = **$1,250-$1,875/month**
+### Growing brand, $10,000/month ad spend
 
-**Total monthly value**: ~$3,150-$4,375
-**Monthly cost**: $49
-**ROI**: ~6,300-8,800%
-**Payback period**: Under 12 hours
-
-### Key Insight
-
-The Pro plan's intent detection and knowledge base features dramatically improve reply quality. AI replies that draw from actual product catalogs convert at much higher rates than generic templates.
-
-## Scenario 3: Agency ($50,000/month Combined Ad Spend)
-
-| Metric | Value |
+| Input | Value |
 |---|---|
-| Combined client ad spend | $50,000/month across 10 clients |
-| Daily comments | ~400-700 across all accounts |
-| Current response time | 1-8 hours (2 moderators, business hours only) |
-| Current moderation | Active but inconsistent |
-| **Tool cost** | **$89/month (Ultra plan)** |
+| Comments per day | 100 |
+| Questions | 35% |
+| Answered late or never | 40% (a part-time manager checks three times a day) |
+| Conversion: quick vs late | 6% vs 2% |
+| Average order value | $60 |
+| Hours on comments | 60 a month at $25, of which 15 stay with a person |
+| Tool | $49/month (Rypl Pro) |
 
-**Expected returns:**
+- Recovered sales: 100 × 30 × 35% × 40% × 4% × $60 = **$1,008**
+- Labor saved: 45 × $25 = **$1,125**
+- ROI: ($2,133 − $49) ÷ $49 ≈ **43×**
 
-- **CPC Savings**: $50,000 x 10% = **$5,000/month** across all client accounts
-- **Conversion Improvement**: 80-150 additional conversions/month across clients. At $50 average = **$4,000-$7,500/month**
-- **Labor Savings**: 2 moderators x $20/hour x 8 hours x 22 days = **$7,040/month** (can redeploy staff to higher-value work)
+### Agency, ten clients, $50,000/month combined spend
 
-**Total monthly value**: ~$16,040-$19,540
-**Monthly cost**: $89
-**ROI**: ~18,000-21,900%
-**Payback period**: Under 4 hours
-
-### Key Insight
-
-For agencies, the unlimited accounts and pages on the Ultra plan mean the per-client cost is under $9/month — far less than any alternative, including hiring additional moderators.
-
-## The Cost of Not Automating
-
-ROI calculations usually focus on what you gain from automation. It is equally important to consider what you are losing without it:
-
-| Loss Category | Monthly Impact (at $10k spend) |
+| Input | Value |
 |---|---|
-| CPC inflation from unmoderated negativity | $500-$2,000+ |
-| Lost leads from slow response times | $900-$3,000+ |
-| Labor cost of manual moderation | $1,200-$2,400 |
-| Brand reputation damage (unquantifiable) | Varies |
-| **Total estimated monthly loss** | **$2,600-$7,400** |
+| Comments per day, all clients | 500 |
+| Questions | 35% |
+| Answered late or never | 30% (two moderators, business hours) |
+| Conversion: quick vs late | 5% vs 2% |
+| Average order value | $50 |
+| Hours on comments | 350 a month at $20, of which 100 stay with people |
+| Tool | $89/month (Rypl Ultra, unlimited accounts and pages) |
 
-Most advertisers do not feel these losses because they have never experienced the alternative. They accept their current CPC and conversion rates as normal without realizing that comment management could improve both significantly.
+- Recovered sales: 500 × 30 × 35% × 30% × 3% × $50 = **$2,363**
+- Labor saved: 250 × $20 = **$5,000**
+- ROI: ($7,363 − $89) ÷ $89 ≈ **82×**
 
-## Conservative vs. Optimistic Estimates
+The labor line dominates when a team is already answering comments; recovered sales dominate when nobody is. Halve the conversion gap and the conclusion rarely changes at these tool prices, but run it with your own counts before relying on it.
 
-The calculations above use mid-range estimates based on averages observed across Rypl users. Here is how results vary with conservative and optimistic assumptions:
+## Step 4: Measure the real effect
 
-| Factor | Conservative | Mid-Range | Optimistic |
-|---|---|---|---|
-| ROAS improvement | 5% | 10% | 15% |
-| Conversion lift | 10% | 20% | 30% |
-| Response time reduction | 4hrs → 5min | 4hrs → 1min | 4hrs → 30sec |
+Estimates are for deciding whether to test. Then measure:
 
-Even under the most conservative assumptions (half the mid-range values), comment automation tools at the $19-89/month price range pay for themselves within the first week.
+1. **Pick comparable ads.** Same product, targeting and creative, before and after switching automation on, or two similar ad sets at once with automation on only one.
+2. **Track for at least two weeks** after the first week of tuning.
+3. **Compare:**
+   - ROAS and cost per result in Ads Manager;
+   - [quality ranking](https://www.facebook.com/business/help/303639570334185) and [engagement rate ranking](https://www.facebook.com/business/help/2351270371824148) in the ad relevance diagnostics;
+   - median reply time to questions;
+   - how many spam and scam comments were hidden, and how many hides you reversed;
+   - hours your team spent on comments.
+4. **Check the answers, not just the numbers.** A fast wrong answer costs more than a slow right one. Read a sample of replies every week.
 
-## How to Measure Your Own ROI
+For reference: the cleanest public A/B test, by [BrandBastion at MindValley](https://blog.brandbastion.com/how-to-measure-community-management-roi), measured +48% ROAS with comment management as the only variable. That is the upper end of published results. Across RYPL accounts the lift was about +10% ROAS in the first month (RYPL's own measurement). Your result will depend on your comment volume, your product and how good the answers are.
 
-After implementing automation, track these metrics weekly for the first month:
 
-1. **CPC before vs. after** — Compare the same campaigns, same targeting, same creative
-2. **Ad quality rankings** — Check Quality Ranking, Engagement Rate Ranking, and Conversion Rate Ranking in Ads Manager
-3. **Comment-to-conversion rate** — Track how many comment interactions lead to purchases
-4. **Average response time** — Verify the tool is replying within 60 seconds
-5. **Hidden comment volume** — How many spam/negative comments are being caught
+## More on rypl.is
+
+- [Meta ads ROAS in 2026](https://www.rypl.is/blog/meta-ads-roas-2026): what's realistic by industry, with a calculator
+- [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026 (CC BY 4.0)
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
 
 ---
 
-**Next:** [Learn best practices for configuration →](best-practices.md)
+**Next:** [Best practices for configuration →](best-practices.md)
 
 *Part of the [Facebook Ad Comment Automation Guide](../README.md) by [Rypl](https://www.rypl.is).*
