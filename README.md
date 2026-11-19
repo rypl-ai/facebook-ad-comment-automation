@@ -1,6 +1,6 @@
 # Facebook Ad Comment Automation: The Complete Guide (2026)
 
-*Last updated: October 11, 2026*
+*Last updated: November 19, 2026*
 
 **How to automate replies and moderation for the comments under your Facebook ads, and the same for Instagram and TikTok ads: why it matters, how it works, which tools do it and how to set it up.**
 
@@ -23,14 +23,16 @@ This guide covers why ad comments matter, how automated comment management works
 
 ### What people actually write under ads
 
-[RYPL's Q3 2026 ad comment statistics](https://www.rypl.is/blog/ad-comment-statistics-2026) (published under CC BY 4.0) cover comments on advertisers' Facebook and Instagram ads and posts. Of the comments RYPL's AI analyzed:
+[RYPL's ad comment statistics for Q3 2026](https://www.rypl.is/blog/ad-comment-statistics-2026) (published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) cover comments on advertisers' Facebook and Instagram ads and posts. Of the comments RYPL's AI analyzed:
 
 - **40%** were questions, and **38%** showed buying intent: the price, availability, specs or how to get it. Only **2%** said outright that the person wanted to buy; most buying intent arrives as a question.
 - **18%** were negative in tone, and **3%** (about one in 40) accused the brand of a scam or said the product was fake.
 - Banned-word lists removed about **5%** of all comments before the AI read them.
 - **70%** were not in English, and about 4 in 5 advertisers got comments in two or more languages.
+- Facebook and Instagram behave differently: **21%** of Facebook comments were negative, against **8%** on Instagram.
+- Comments arrived around the clock: no hour of the day carried less than **3%** or more than **5%** of them.
 
-So the biggest share of an ad's comment section is people asking something before they buy. The rest is a mix of praise, complaints and noise that every other viewer reads too.
+So the biggest share of an ad's comment section is people asking something before they buy, and they ask at any hour. The rest is a mix of praise, complaints and noise that every other viewer reads too. The mix varies a lot between advertisers, so count your own before you plan around these shares.
 
 ### Comments and ad delivery
 
@@ -74,18 +76,22 @@ AI tools read the meaning of the comment. They can:
 
 - tell "How much does this cost?" from "This costs too much";
 - answer in the commenter's language without separate rule sets;
-- write a reply grounded in your knowledge base (website, files, Q&A) rather than a fixed template;
-- look at the ad itself (image, video, copy) to know which product is being asked about.
+- write a reply grounded in your knowledge base (website, documents, Q&A) rather than a fixed template;
+- look at the ad itself to know which product is being asked about.
 
 Most AI tools keep keyword lists too: banned words are the right tool for things you never want shown, such as a competitor's name or a slur.
 
 ### Official APIs only
 
-Use tools that connect through the official [Meta Graph API](https://developers.facebook.com/docs/graph-api/) (and the TikTok Marketing API for TikTok ads), authorized with OAuth. Browser automation and scraping break Meta's terms and put the Page at risk. Ask any vendor how it connects before you give it access.
+Use tools that connect through the official [Meta Graph API](https://developers.facebook.com/docs/graph-api/) (and the TikTok Marketing API for TikTok ads), authorized by you. Browser automation and scraping break Meta's terms and put the Page at risk. Ask any vendor how it connects before you give it access.
 
 ### Instagram and TikTok ads
 
-The same approach works on Instagram: comments under ads and posts, and Direct messages. TikTok ads are different. Comments are managed in TikTok Ads Manager, whose help lists hide, reply, like, block and export, but no way to delete comments other people leave ([TikTok Business Help: How to view and manage comments in TikTok Ads Manager](https://ads.tiktok.com/help/article/how-to-view-and-manage-comments-in-tiktok-ads-manager?lang=en)). TikTok's API allows automatic replies to top-level comments only. See [how to hide comments on TikTok ads](https://www.rypl.is/guides/hide-comments-on-tiktok-ads).
+The same approach works on Instagram: comments under ads, posts and Reels, and Direct messages. TikTok ads are different. Comments are managed in TikTok Ads Manager, whose help lists hide, reply, like, block and export, but no way to delete comments other people leave ([TikTok Business Help: How to view and manage comments in TikTok Ads Manager](https://ads.tiktok.com/help/article/how-to-view-and-manage-comments-in-tiktok-ads-manager?lang=en)). TikTok's API allows automatic replies to top-level comments only. See [how to hide comments on TikTok ads](https://www.rypl.is/guides/hide-comments-on-tiktok-ads) and [how to auto-reply to TikTok ad comments](https://www.rypl.is/guides/auto-reply-to-tiktok-ad-comments).
+
+### Getting comments out of the inbox
+
+Comments are also data: a weekly digest of complaints, the ad that draws the most of them, or comments joined with spend in a data warehouse. You can build it on Meta's and TikTok's own APIs, or use a tool that exports comments with its analysis attached and lets an AI assistant answer questions about them through MCP. [How to get Facebook, Instagram and TikTok ad comments through an API or MCP](https://www.rypl.is/blog/facebook-instagram-tiktok-comments-api) compares both routes.
 
 ---
 
@@ -95,14 +101,14 @@ Five tools are commonly compared for ad comment automation. The table is scoped 
 
 | | **Rypl** | ReplyZen | NapoleonCat | Agorapulse | ManyChat |
 |---|---|---|---|---|---|
-| **Core job** | AI replies and moderation for ad comments and DMs | AI comment replies | Social-media suite with auto-moderation | Social-media suite with a human inbox | DM funnel builder |
+| **Core job** | AI replies and moderation for comments and DMs | AI comment replies | Social-media suite with auto-moderation | Social-media suite with a human inbox | DM funnel builder |
 | **AI replies to comments** | Written and posted automatically, every plan | Yes, metered per reply | AI drafts a person approves (beta) | None for comments | Pre-written public replies; AI comment replies on Instagram only, in beta |
 | **Automatic hiding** | Every plan | Yes | From the Expert plan ($119/mo yearly) | Inbox rules | Not a moderation tool |
 | **Platforms (comments)** | Facebook, Instagram, TikTok ads | Facebook, Instagram, TikTok (labelled beta) | Facebook, Instagram and more | Facebook, Instagram and more | Instagram, Messenger, WhatsApp and more |
 | **Pricing model** | Flat per plan, no comment limit | Per AI reply (500 to 10,000 a month) | Per profiles and users | Per user and profile | Per active contact |
 | **Starts at** | $19/mo | $29/mo | ~$79/mo (yearly) | $79/user/mo (yearly) | Free / $17/mo |
 
-**Rypl** ([rypl.is](https://www.rypl.is)) replies to and moderates comments and DMs on Facebook and Instagram, plus comments on TikTok ads. On every plan it writes and posts AI replies from your knowledge base, detects intent, and hides spam and hate: spam is flagged in about 1.7 seconds on average and hidden within seconds (RYPL's own measurement). From Pro it reads the ad before replying and runs moderation and reply rules written in plain words; Ultra adds conversation memory. Flat pricing from $19/mo with no comment limit, 7-day free trial. It is built for comments and DMs, not publishing or reporting, and runs next to a suite or flow builder.
+**Rypl** ([rypl.is](https://www.rypl.is)) replies to and moderates comments and DMs on Facebook and Instagram, plus comments on TikTok ads. On every plan it writes and posts AI replies from your knowledge base, detects intent, and hides spam and hate: spam is flagged in about 1.7 seconds on average and hidden within seconds (RYPL's own measurement). From Pro it reads the ad before replying, runs moderation and reply rules written in plain words, and adds an API and MCP server, so Claude Code, Cursor, VS Code, Gemini CLI or a script can read and export your comments and DMs with Rypl's analysis (a connected app can't reply or delete). Ultra adds conversation memory. Flat pricing from $19/mo with no comment limit, 7-day free trial. It is built for comments and DMs, not publishing or reporting, and runs next to a suite or flow builder.
 
 **ReplyZen** ([replyzen.ai](https://www.replyzen.ai/)) writes AI replies to Facebook and Instagram comments, with TikTok labelled beta. Compared with Rypl: every tier caps AI replies per month, from 500 on the $29 plan to 10,000 on the $249 plan, so a month when an ad takes off pushes you up a tier.
 
@@ -125,7 +131,7 @@ Comment automation pays back through three things: more buyers answered in time,
 | Input | Where to find it |
 |---|---|
 | Monthly ad spend and ROAS | Ads Manager |
-| Comments per day, and the share that are questions | Count a week of comments on your top ads (the RYPL report's 40% questions is one reference point) |
+| Comments per day, and the share that are questions | Count a week of comments on your top ads (the RYPL report's 40% questions is one reference point, but the share varies a lot between advertisers) |
 | Current reply time | Look at when your last 50 replies went out compared with the comment |
 | Hours your team spends on comments | Ask them |
 | Average order value and conversion rate of people who comment | Your store or CRM |
@@ -175,6 +181,10 @@ Change any assumption and the result moves a lot, which is the point: run it wit
 
 Automated answers are only as good as what the tool knows. Give it your website, shipping and return policies, prices and the 20 to 50 questions you get most, and update it when prices or stock change.
 
+### Set Facebook and Instagram up separately
+
+In RYPL's data, Facebook comments were negative more than twice as often as Instagram comments (21% against 8%). The same moderation settings will hide far more on a Facebook Page than on an Instagram account, so check what each one catches.
+
 ### Watch the first week closely
 
 Read every automated reply and every hidden comment for the first few days. Fix wrong answers in the knowledge base, not one reply at a time, and unhide anything hidden by mistake.
@@ -187,19 +197,19 @@ For the full playbook, see [Best Practices](guides/best-practices.md).
 
 This uses [Rypl](https://www.rypl.is) as the example; the order of steps is the same in most tools.
 
-1. **Start a trial.** Create an account at [app.rypl.is/signup](https://app.rypl.is/signup). Every plan has a 7-day free trial.
-2. **Connect your channels.** Log in with Meta to connect Facebook Pages and Instagram accounts, and with TikTok for TikTok ad accounts. You need admin rights on the Page.
-3. **Set up an agent.** Describe your brand voice and add a knowledge base: your website, files and Q&A.
-4. **Set moderation.** Spam and hate filters are on by default. Add banned words (competitor names, slurs), choose what happens to negative comments, and on Pro write moderation rules in plain words.
-5. **Go live and check.** Read the first replies and hidden comments, fix gaps in the knowledge base, and use the Needs attention queue for what a person should handle.
+1. **Describe your business.** Sign up at [app.rypl.is/signup](https://app.rypl.is/signup) and say what you sell, what people ask and what to hide. Rypl drafts an agent and moderation from it; nothing goes live until you turn it on. Every plan starts with a 7-day free trial.
+2. **Connect your channels.** On **Channels**, click **Connect channel**: Facebook through a Business portfolio or a personal profile, with each Page's linked Instagram account coming along, or TikTok ads through TikTok for Business. You need to manage the Page or ad account.
+3. **Fill the knowledge base and set the voice.** Add your website, Q&A and documents, pick a tone and write instructions for the agent.
+4. **Check moderation.** Review the banned words and filters Rypl set up, choose what happens to negative comments (*Filter by tone* is off by default), and on Pro write moderation rules in plain words.
+5. **Turn on replies and check.** Pick an agent on each channel's row and switch on **Replies**. Read the first replies and hidden comments in the Inbox, fix gaps in the knowledge base, and clear **Needs attention**.
 
-The [Setup Guide](guides/setup-guide.md) covers each step in detail.
+The [Setup Guide](guides/setup-guide.md) covers each step in detail, and the [Rypl documentation](https://www.rypl.is/docs) covers every screen.
 
 ---
 
 ## Resources
 
-- **[Rypl documentation](https://rypl-ai.github.io/docs/)**: product setup and reference
+- **[Rypl documentation](https://www.rypl.is/docs)**: set-up and every screen, one question per page
 - **[Rypl guides](https://www.rypl.is/guides)**: how to hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads, checked against each platform's help
 - **[Ad comment glossary](https://www.rypl.is/glossary)**: dark posts, hidden comments, Moderation Assist and other terms
 - **[Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026)**: what people write under ads, CC BY 4.0
@@ -218,13 +228,15 @@ The [Setup Guide](guides/setup-guide.md) covers each step in detail.
 
 ## More on rypl.is
 
-- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
-- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
-- [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool): replies and moderation for comments on TikTok ads
-- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
-- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
-- [Comment management guides](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
-- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026 (CC BY 4.0)
+- [Rypl documentation](https://www.rypl.is/docs): how to set up and use Rypl
+- [Facebook Comment Moderation Tool with AI Auto-Replies](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram Comment Moderation Tool with AI Replies](https://www.rypl.is/instagram-comment-moderation-tool): Instagram ads, posts and DMs
+- [TikTok Ad Comment Moderation Tool with AI Replies](https://www.rypl.is/tiktok-comment-moderation-tool): comments on TikTok ads
+- [Pricing: Plans From $19/mo, 7-Day Free Trial](https://www.rypl.is/pricing): no comment limit on any plan
+- [Rypl vs Alternatives: Comment Tools Compared](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat, Agorapulse, Respondology and BrandBastion, with sources
+- [How-To Guides: Facebook, Instagram & TikTok Comments](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
+- [Ad Comment Statistics 2026: What People Write to Advertisers](https://www.rypl.is/blog/ad-comment-statistics-2026): RYPL data, Q3 2026 (CC BY 4.0)
+- [How to Get Facebook, Instagram and TikTok Ad Comments Through an API or MCP](https://www.rypl.is/blog/facebook-instagram-tiktok-comments-api): DIY on the platform APIs, or one Rypl key
 
 ---
 

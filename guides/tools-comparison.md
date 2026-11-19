@@ -1,6 +1,6 @@
 # Facebook Ad Comment Automation Tools: Detailed Comparison
 
-*Last updated: October 11, 2026*
+*Last updated: November 19, 2026*
 
 [Back to Main Guide](../README.md) | [ROI Guide](roi-estimation-guide.md) | [Setup Guide](setup-guide.md)
 
@@ -21,13 +21,13 @@ We build one of these tools ([Rypl](https://www.rypl.is)), so read this as a ven
 
 | | **Rypl** | ReplyZen | NapoleonCat | Agorapulse | ManyChat |
 |---|---|---|---|---|---|
-| **Core job** | AI replies and moderation for ad comments and DMs | AI comment replies | Social-media suite with auto-moderation | Social-media suite with a human inbox | DM funnel builder |
+| **Core job** | AI replies and moderation for comments and DMs | AI comment replies | Social-media suite with auto-moderation | Social-media suite with a human inbox | DM funnel builder |
 | **AI replies to comments** | Written and posted automatically, every plan | Yes, metered per reply | AI drafts a person approves (beta) | None for comments | Pre-written public replies; AI comment replies on Instagram only, in beta |
 | **Automatic hiding** | Every plan | Yes | From the Expert plan | Inbox rules | Not a moderation tool |
 | **Platforms (comments)** | Facebook, Instagram, TikTok ads | Facebook, Instagram, TikTok (labelled beta) | Facebook, Instagram and more | Facebook, Instagram and more | Instagram, Messenger, WhatsApp and more |
 | **Pricing model** | Flat per plan, no comment limit | Per AI reply | Per profiles and users | Per user and profile | Per active contact |
 | **Starts at** | $19/mo | $29/mo | ~$79/mo (yearly) | $79/user/mo (yearly) | Free / $17/mo |
-| **Free trial** | 7 days | 14 days | Yes | 30 days | Free plan (25 contacts) |
+| **Free trial** | 7 days | 14 days | 14 days, on Expert | 30 days | Free plan (25 contacts) |
 
 ---
 
@@ -40,16 +40,17 @@ Rypl replies to and moderates comments and DMs on Facebook and Instagram, plus c
 **What it does with each new comment:**
 
 - **Reads intent** on every plan: price, shipping, sizes, complaint, praise.
-- **Replies in your brand voice** from your knowledge base (website, files and Q&A), in the language the person wrote in. On the default setting replies go out in under 60 seconds; 97% of Facebook replies go out within a minute (RYPL's own measurement).
-- **Hides spam and hate** on every plan: spam is flagged in about 1.7 seconds on average and hidden within seconds (RYPL's own measurement). Banned words and a *Filter by tone* setting (leave negative comments, or hide or delete them) are on every plan too.
-- **Reads the ad** (image, video, copy) before replying, from Pro.
-- **Runs rules written in plain words**, from Pro: moderation rules (hide, delete, flag for you, or leave for you to answer, with a Review first mode) and reply rules (let an agent answer, send a ready reply, or skip).
-- **Sends what needs a person to a Needs attention queue**: complaints, urgent questions and rule matches.
+- **Replies in your brand voice** from your knowledge base (website, documents and Q&A), in the language the person wrote in. On the default *How soon: Immediately* setting, 97% of Facebook replies went out within a minute (RYPL's own measurement).
+- **Hides spam and hate** on every plan: spam is flagged in about 1.7 seconds on average and hidden within seconds (RYPL's own measurement). Banned words, the *Spam & media filter* and *Filter by tone* (off by default; hides or deletes negative comments if you turn it on) are on every plan too.
+- **Reads the ad** before replying, from Pro.
+- **Runs rules written in plain words**, from Pro: moderation rules (allow, hide, delete, flag for you, or leave for you to answer, with a Review first mode) and reply rules (an AI reply, your own text, or no reply).
+- **Sends what needs a person to Needs attention**: complaints, urgent comments and rule matches.
+- **Opens your comments to scripts and AI tools**, from Pro: an API and MCP server let Claude Code, Cursor, VS Code, Gemini CLI or your own script read and export comments and DMs with Rypl's analysis, or answer questions such as "which ad gets the most complaints?". You choose what each app may read; it can hide comments only if you allow it, and it can't reply or delete ([how it works](https://www.rypl.is/blog/facebook-instagram-tiktok-comments-api)).
 - **Remembers earlier conversations** with the same person, on Ultra.
 
-**Pricing:** flat, with no comment limit on any plan. Simple $19/mo (1 account, up to 3 pages, 1 agent), Pro $49/mo (up to 5 accounts and 20 pages, unlimited agents), Ultra $89/mo (unlimited accounts and pages, the most powerful AI model, conversation memory). About 20% less billed yearly; 7-day free trial on every plan. Rypl runs on the latest OpenAI models and upgrades them automatically. Details: [rypl.is/pricing](https://www.rypl.is/pricing).
+**Pricing:** flat, with no comment limit on any plan. Simple $19/mo (1 account, AI replies on 3 channels, 1 agent), Pro $49/mo (5 accounts, AI replies on 20 channels, unlimited agents, the API and MCP server), Ultra $89/mo (unlimited accounts and channels, the most powerful AI, conversation memory). A channel is a Facebook Page with its linked Instagram account, or a TikTok ad account; moderation runs on every connected channel, and only channels with AI replies on count toward the plan. Billed yearly: $182, $470 or $854 a year. 7-day free trial on every plan. Rypl runs on the latest OpenAI models and upgrades them automatically. Details: [Rypl pricing](https://www.rypl.is/pricing).
 
-**Focus:** Rypl is built for comments and DMs, not publishing, scheduling or social listening. Teams that need those keep their suite or flow builder and let Rypl answer the comments. Organic TikTok posts are not supported.
+**Focus:** Rypl is built for comments and DMs, not publishing, scheduling or social listening. Teams that need those keep their suite or flow builder and let Rypl answer the comments. On TikTok it handles ad comments only.
 
 ---
 
@@ -60,7 +61,7 @@ Rypl replies to and moderates comments and DMs on Facebook and Instagram, plus c
 ReplyZen is an AI comment tool for Facebook and Instagram ads and posts, with TikTok labelled beta on its site. One agent moderates, tags and replies. Replies can publish automatically, only above a confidence threshold, or after a person approves them.
 
 - **Compared with Rypl:** every tier caps AI replies and moderations per month, from 500 AI replies on the $29 Basic plan to 10,000 on the $249 Ultra plan, so a month when an ad takes off pushes you up a tier. Rypl has no cap and runs TikTok ads on every plan.
-- **Pricing:** Basic $29, Pro $69, Enterprise $149, Ultra $249 per month, every feature on every tier; 14-day trial with 500 AI replies and 500 moderations.
+- **Pricing:** Basic $29, Pro $69, Enterprise $149, Ultra $249 per month, every feature on every tier ([pricing](https://www.replyzen.ai/#pricing)); 14-day trial with 500 AI replies and 500 moderations.
 - Full comparison: [Rypl vs ReplyZen](https://www.rypl.is/blog/rypl-vs-replyzen).
 
 ---
@@ -72,7 +73,7 @@ ReplyZen is an AI comment tool for Facebook and Instagram ads and posts, with Ti
 NapoleonCat is a social-media management platform: a unified inbox, analytics, publishing and an [Auto-Moderation](https://napoleoncat.com/features/auto-moderation/) module with rules that hide or delete comments and send preset replies, across Facebook, Instagram and other networks, ads included.
 
 - **Compared with Rypl:** automated moderation and replies run on rules and presets. Automatic hiding starts on the Expert plan ($119/mo billed yearly), and the [AI Assistant](https://napoleoncat.com/features/ai-assistant/) that tags spam and hate is a $29/mo add-on past 100 free Inbox actions a month. Its AI reply suggestions (beta) draft replies for a person to approve. Rypl's AI replies post on their own and hiding is on every plan from $19.
-- **Pricing:** Standard ~$79/mo, Pro ~$89/mo and Expert ~$119/mo, billed yearly, for 5 profiles and 2 users ([pricing](https://napoleoncat.com/pricing/)).
+- **Pricing:** Standard ~$79/mo, Pro ~$89/mo and Expert ~$119/mo, billed yearly, for 5 profiles and 2 users; 14-day trial on Expert ([pricing](https://napoleoncat.com/pricing/)).
 - Full comparison: [Rypl vs NapoleonCat](https://www.rypl.is/blog/rypl-vs-napoleoncat).
 
 ---
@@ -97,14 +98,18 @@ ManyChat builds DM automation for Instagram, Messenger, WhatsApp and more. Its c
 
 - **Compared with Rypl:** on Facebook, the public reply is a scripted line, not an answer to the question asked. AI comment replies exist on Instagram only, in beta, and its AI Step works inside DM flows. Pricing climbs with active contacts: the Business plan covers 7,500 active contacts at $99/mo, then charges per extra contact. Rypl answers the actual question in public on Facebook, Instagram and TikTok ads at a flat price.
 - **Pricing:** Free (25 contacts), Essential $17, Pro $39, Business $99, Advanced $199 per month ($14, $29, $69 and $139 billed yearly), scaling by active contacts.
-- **Works alongside:** teams that run DM funnels often keep ManyChat for the DMs and use a comment tool for the public thread.
+- **Works alongside:** teams that run DM funnels often keep ManyChat for the DMs and use a comment tool for the public thread. In Rypl, a channel's *Instagram DMs* setting can leave those DMs to the other app while Rypl handles the comments ([details](https://www.rypl.is/docs/troubleshooting/why-cant-rypl-reply-to-instagram-dms)).
 - Full comparison: [Rypl vs ManyChat](https://www.rypl.is/blog/rypl-vs-manychat).
 
 ---
 
-## Also worth knowing: BrandBastion
+## Also worth knowing: BrandBastion and Respondology
 
-[BrandBastion](https://www.brandbastion.com/) combines AI with a managed moderation service for large brands across Facebook, Instagram, TikTok and YouTube, with custom enterprise pricing. It ran the MindValley A/B test cited in [Why Comment Automation Matters](why-comment-automation-matters.md).
+Both are enterprise moderation services that pair AI with people and start with a demo rather than a self-serve trial.
+
+- **[BrandBastion](https://www.brandbastion.com/)** combines AI with a team of specialists across Facebook, Instagram, TikTok, YouTube and more, and quotes its price after a demo. It ran the MindValley A/B test cited in [Why Comment Automation Matters](why-comment-automation-matters.md).
+- **[Respondology](https://www.respondology.com/moderate)** backs keyword rules and AI with human moderators, across Facebook, Instagram, TikTok, YouTube and more. It publishes its prices, from $999 a month billed yearly ([pricing](https://www.respondology.com/pricing)).
+- Full comparison: [Respondology vs BrandBastion](https://www.rypl.is/blog/respondology-vs-brandbastion).
 
 ---
 
@@ -115,21 +120,25 @@ ManyChat builds DM automation for Instagram, Messenger, WhatsApp and more. Its c
 3. **What happens to negative comments by default.** Look for a tool that sends complaints to a person and lets you choose whether negative comments are hidden.
 4. **How the price grows.** Work out the bill for your busiest month, not your average one.
 5. **Languages.** If your ads run in several markets, test replies in each language before you go live.
+6. **Getting the data out.** If comments should feed a report, a data warehouse or an AI assistant, check whether the tool has an API or MCP server and whether it returns its analysis (intent, sentiment, why a comment was hidden) or only the raw text.
 
 *Facts checked October 2026. Visit each tool's site for current pricing.*
 
 
 ## More on rypl.is
 
-- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
-- [The 6 best Facebook and Instagram ad comment automation tools](https://www.rypl.is/blog/best-facebook-instagram-comment-automation-tools): a sourced comparison
-- [Rypl vs ReplyZen](https://www.rypl.is/blog/rypl-vs-replyzen): AI comment automation compared
-- [Rypl vs ManyChat](https://www.rypl.is/blog/rypl-vs-manychat): comment automation vs chatbot funnels
-- [Rypl vs NapoleonCat](https://www.rypl.is/blog/rypl-vs-napoleoncat): AI automation vs rule-based moderation
-- [Rypl vs Agorapulse](https://www.rypl.is/blog/rypl-vs-agorapulse): focused AI automation vs a full suite
-- [ManyChat alternatives for comment automation](https://www.rypl.is/blog/manychat-alternatives): 8 tools compared
-- [NapoleonCat alternatives for ad comment moderation](https://www.rypl.is/blog/napoleoncat-alternatives): compared with sources
-- [Agorapulse alternatives for ad comment moderation](https://www.rypl.is/blog/agorapulse-alternatives): compared with sources
+- [How is Rypl different from other comment tools?](https://www.rypl.is/docs/before-you-start/how-is-rypl-different): what comes on every plan
+- [Rypl vs Alternatives: Comment Tools Compared](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat, Agorapulse, Respondology and BrandBastion, with sources
+- [The 10 Best Facebook & Instagram Comment Moderation Tools in 2026](https://www.rypl.is/blog/best-facebook-instagram-comment-automation-tools): a sourced comparison
+- [Rypl vs ReplyZen: AI Comment Automation Compared](https://www.rypl.is/blog/rypl-vs-replyzen)
+- [Rypl vs ManyChat: Comment Automation vs Chatbot Funnels](https://www.rypl.is/blog/rypl-vs-manychat)
+- [Rypl vs NapoleonCat: AI-Native Automation vs Rule-Based Moderation](https://www.rypl.is/blog/rypl-vs-napoleoncat)
+- [Rypl vs Agorapulse: Focused AI Automation vs Full Social Media Suite](https://www.rypl.is/blog/rypl-vs-agorapulse)
+- [Respondology vs BrandBastion: Enterprise Comment Moderation Compared](https://www.rypl.is/blog/respondology-vs-brandbastion)
+- [8 Best ManyChat Alternatives for Comment Automation](https://www.rypl.is/blog/manychat-alternatives)
+- [NapoleonCat Alternatives for Ad Comment Moderation](https://www.rypl.is/blog/napoleoncat-alternatives)
+- [Agorapulse Alternatives for Ad Comment Moderation](https://www.rypl.is/blog/agorapulse-alternatives)
+- [How to Get Facebook, Instagram and TikTok Ad Comments Through an API or MCP](https://www.rypl.is/blog/facebook-instagram-tiktok-comments-api): the platform APIs compared with one Rypl key
 
 ---
 
