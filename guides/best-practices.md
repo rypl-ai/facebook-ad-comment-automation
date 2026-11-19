@@ -1,6 +1,6 @@
 # Best Practices for Facebook Ad Comment Automation
 
-*Last updated: October 11, 2026*
+*Last updated: November 19, 2026*
 
 [Back to Main Guide](../README.md) | [Tools Comparison](tools-comparison.md) | [Setup Guide](setup-guide.md)
 
@@ -37,15 +37,19 @@ Answer from your knowledge base, in the language the person wrote in, with a cle
 - Legal, medical or safety questions.
 - Anything the knowledge base can't answer.
 
-Don't hide a legitimate complaint by default: other viewers notice when criticism disappears. Answer it publicly, or acknowledge it and continue in private, and make sure a person picks it up. In Rypl these go to the **Needs attention** queue. If your ads attract a lot of hostility, Rypl's *Filter by tone* setting can hide or delete negative comments; it is off by default.
+Don't hide a legitimate complaint by default: other viewers notice when criticism disappears. Answer it publicly, or acknowledge it and continue in private, and make sure a person picks it up. In Rypl, a complaint without a reply waits in the Inbox's **Needs attention** view. If your ads attract a lot of hostility, Rypl's *Filter by tone* setting can hide or delete negative comments on a channel; it is off by default.
 
 ### Thank: praise
 
-"Love this!", "Best purchase ever", friends tagging friends. A short thank-you or a like keeps the thread warm. In Rypl, thank-you replies are a setting from the Pro plan.
+"Love this!", "Best purchase ever", friends tagging friends. A short thank-you or a like keeps the thread warm. In Rypl, thank-you replies are the *Praise and support* setting on the agent, from the Pro plan.
 
 ### Leave alone: noise
 
 "Nice", a single emoji, a friend tag with nothing else. Not every comment needs a reply, and replying to all of them makes the thread look automated.
+
+### Treat Facebook and Instagram separately
+
+In [RYPL data, Q3 2026](https://www.rypl.is/blog/ad-comment-statistics-2026), 21% of comments on Facebook were negative in tone against 8% on Instagram, and 51% of Instagram comments were positive against 19% on Facebook. Settings that feel right on an Instagram account can hide a lot more on a Facebook Page, so check what each platform's filters catch rather than copying one setup to the other.
 
 ## Knowledge base
 
@@ -76,6 +80,7 @@ Fix wrong answers at the source. Correcting one reply by hand leaves the next on
 - **Stale facts:** last season's prices or a discontinued product.
 - **Contradictions:** different shipping times on two pages.
 - **Missing policies:** without a returns policy, every returns question gets a hedge.
+- **Scanned files:** a photo or scan of a page often can't be read at all. Upload text-based documents.
 
 ## Brand voice
 
@@ -101,7 +106,7 @@ Most consumer brands do best with a balanced tone; B2B and regulated industries 
 
 ## Speed
 
-- **Replies:** aim for under a minute on questions. Rypl's default *How soon* setting is *Immediately*; you can choose a few minutes, an hour or a day if instant replies feel wrong for your brand.
+- **Replies:** aim for under a minute on questions. Rypl's default *How soon* setting is *Immediately*; you can choose a few minutes, an hour or a day if replies within seconds feel wrong for your brand. On a brand-new Facebook Page, *Within a few minutes* is the safer start, because Facebook may throttle new Pages that reply right away ([Rypl docs](https://www.rypl.is/docs/agents/where-and-how-soon-does-the-agent-reply)).
 - **Hiding:** spam and scam links should be gone within seconds, before the next viewer scrolls past them.
 - **People:** set a target for how fast someone picks up the Needs attention queue, for example within business hours the same day.
 
@@ -112,7 +117,8 @@ If every reply needs a person's approval before it posts, the speed advantage di
 ### Week 1: every day
 
 - Read every automated reply.
-- Check every hidden comment and unhide mistakes.
+- Check every hidden comment and unhide mistakes. In Rypl, the Inbox's **Hidden or deleted** view says why each one was hidden.
+- Start new moderation rules in **Review first**, so matches wait for you, and switch to **Apply automatically** once they catch the right comments.
 - List the questions answered badly and add the facts to the knowledge base.
 
 ### Weeks 2 to 4: a few times a week
@@ -138,12 +144,15 @@ If every reply needs a person's approval before it posts, the speed advantage di
 
 ## More on rypl.is
 
-- [How to respond to negative comments on Facebook](https://www.rypl.is/guides/respond-to-negative-comments-on-facebook): when to answer, hide or escalate
+- [What does Rypl hide automatically?](https://www.rypl.is/docs/moderation/what-does-rypl-hide-automatically): banned words, rules and filters
+- [Which comments does the Rypl agent answer?](https://www.rypl.is/docs/reply-rules/which-comments-does-the-agent-answer): what gets a reply by default
+- [How does Filter by tone work in Rypl?](https://www.rypl.is/docs/moderation/how-does-filter-by-tone-work): hiding negative comments, and when not to
+- [How to respond to negative comments on Facebook](https://www.rypl.is/guides/respond-to-negative-comments-on-facebook): when to answer, hide or escalate, with examples
 - [How to stop spam comments on Facebook](https://www.rypl.is/guides/stop-spam-comments-on-facebook): Meta's filters and automatic hiding
 - [How to hide comments on Facebook ads automatically](https://www.rypl.is/blog/hide-comments-on-facebook-ads): where Meta's tools stop and rules in plain words take over
-- [How to detect buying intent in ad comments](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
-- [AI vs rule-based comment automation](https://www.rypl.is/blog/ai-vs-rule-based-comment-automation): what actually works on Facebook
-- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
+- [How to Detect Buying Intent in Ad Comments (Before the Lead Walks)](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
+- [AI vs Rule-Based Comment Automation: What Actually Works on Facebook](https://www.rypl.is/blog/ai-vs-rule-based-comment-automation)
+- [Ad Comment Glossary: Moderation and Reply Terms](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
 
 ---
 

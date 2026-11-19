@@ -1,6 +1,6 @@
 # Why Facebook Ad Comment Automation Matters
 
-*Last updated: October 11, 2026*
+*Last updated: November 19, 2026*
 
 [Back to Main Guide](../README.md) | [Tools Comparison](tools-comparison.md) | [ROI Guide](roi-estimation-guide.md)
 
@@ -10,7 +10,7 @@ Advertisers spend hours on targeting, creative and bidding, then leave the comme
 
 ## What people write under ads
 
-[RYPL's ad comment statistics for Q3 2026](https://www.rypl.is/blog/ad-comment-statistics-2026) cover comments on advertisers' Facebook and Instagram ads and organic posts, labelled by RYPL's AI as they arrived. The dataset is published under CC BY 4.0. Of the comments the AI analyzed:
+[RYPL's ad comment statistics for Q3 2026](https://www.rypl.is/blog/ad-comment-statistics-2026) cover comments on advertisers' Facebook and Instagram ads and organic posts, labelled by RYPL's AI as they arrived. The dataset is published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Of the comments the AI analyzed:
 
 | Finding | Share |
 |---|---|
@@ -21,14 +21,19 @@ Advertisers spend hours on targeting, creative and bidding, then leave the comme
 | Negative in tone | 18% |
 | Accused the brand of a scam or said the product is fake | 3% |
 | Not in English | 70% |
+| Negative in tone, Facebook only | 21% |
+| Negative in tone, Instagram only | 8% |
 
 Banned-word lists removed about 5% of all comments before the AI read them, and under 1% of the rest was spam.
 
-Three things follow:
+These are shares of all analyzed comments, and a few large advertisers carry a lot of the volume. At the median advertiser, buying-intent comments were 10% of the total and complaints or negative remarks 22%, so your own mix may lean further toward complaints than the headline numbers suggest.
+
+Four things follow:
 
 1. **Buying intent mostly arrives as a question.** "How much?", "Do you ship to Canada?", "Is it in stock in M?" A comment section is a queue of buyers asking before they buy.
 2. **Negativity is a bigger share than spam.** Keyword filters catch spam; they don't decide what to do with a customer who is angry about a late delivery.
 3. **Most comments are not in English.** About 4 in 5 advertisers in the dataset got comments in two or more languages.
+4. **Facebook and Instagram are different rooms.** Facebook comments were negative more than twice as often, so settings tuned on one platform won't fit the other.
 
 ## What Meta says about comments and delivery
 
@@ -56,7 +61,7 @@ Across RYPL accounts, brands saw about **+10% ROAS in the first month**, and ear
 
 Assigning someone to watch comments works at low volume. It breaks down as spend grows:
 
-- **Coverage.** One person covers one shift. Evenings, weekends and holidays go unanswered, and that is when many ads get the most views.
+- **Coverage.** One person covers one shift, so evenings, weekends and holidays go unanswered. In RYPL's data, every hour of the day carried between 3% and 5% of comments: there is no quiet hour to catch up in.
 - **Languages.** A team answers in the languages it speaks; the comment section doesn't limit itself to those.
 - **Consistency.** Answers drift between team members, and facts like shipping times get quoted from memory.
 - **Speed of hiding.** Spam and scam links stay up until someone sees them. Automated moderation hides them within seconds.
@@ -86,11 +91,12 @@ Comment automation is worth testing if any of these apply:
 
 ## More on rypl.is
 
-- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026 (CC BY 4.0)
-- [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
-- [Facebook comment engagement rates 2026](https://www.rypl.is/blog/facebook-comment-engagement-rates-2026): what's normal by industry
-- [The complete guide to Facebook ad comment management](https://www.rypl.is/blog/facebook-ad-comment-management-guide): replies, moderation and what to measure
-- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Ad Comment Statistics 2026: What People Write to Advertisers](https://www.rypl.is/blog/ad-comment-statistics-2026): RYPL data, Q3 2026 (CC BY 4.0)
+- [Why Facebook Comment Response Time Directly Affects Your Ad Performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
+- [Facebook Comment Engagement Rates by Industry 2026](https://www.rypl.is/blog/facebook-comment-engagement-rates-2026): what's normal by industry
+- [The Complete Guide to Facebook Ad Comment Management in 2026](https://www.rypl.is/blog/facebook-ad-comment-management-guide): replies, moderation and what to measure
+- [Who is Rypl for?](https://www.rypl.is/docs/before-you-start/who-is-rypl-for): brands, stores, agencies and freelancers
+- [Facebook Comment Moderation Tool with AI Auto-Replies](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
 
 ---
 

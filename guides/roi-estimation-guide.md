@@ -1,6 +1,6 @@
 # ROI Estimation Guide for Facebook Ad Comment Automation
 
-*Last updated: October 11, 2026*
+*Last updated: November 19, 2026*
 
 [Back to Main Guide](../README.md) | [Tools Comparison](tools-comparison.md) | [Best Practices](best-practices.md)
 
@@ -10,7 +10,7 @@ This guide gives you a way to estimate what comment automation is worth for your
 
 ## Where the value comes from
 
-1. **Buyers answered in time.** Questions under ads are buying intent. In [RYPL's Q3 2026 data](https://www.rypl.is/blog/ad-comment-statistics-2026), 40% of analyzed comments were questions and 38% showed buying intent. A question answered while the person is still on the ad converts more often than one answered the next morning.
+1. **Buyers answered in time.** Questions under ads are buying intent. In [RYPL's Q3 2026 data](https://www.rypl.is/blog/ad-comment-statistics-2026), 40% of analyzed comments were questions and 38% showed buying intent. The share varies a lot from one advertiser to another: at the median advertiser, buying-intent comments were 10% of the total, which is why Step 1 asks you to count your own. A question answered while the person is still on the ad converts more often than one answered the next morning.
 2. **A cleaner thread.** Spam, scam claims and unanswered complaints give every later viewer a reason not to buy, and a reason to hide or report the ad, which feeds Meta's [quality ranking](https://www.facebook.com/business/help/303639570334185).
 3. **Hours back.** The time your team spends reading, answering and hiding comments.
 
@@ -91,7 +91,7 @@ These show how the formula behaves. The inputs are assumptions, not benchmarks.
 | Conversion: quick vs late | 5% vs 2% |
 | Average order value | $50 |
 | Hours on comments | 350 a month at $20, of which 100 stay with people |
-| Tool | $89/month (Rypl Ultra, unlimited accounts and pages) |
+| Tool | $89/month (Rypl Ultra, unlimited accounts and channels) |
 
 - Recovered sales: 500 × 30 × 35% × 30% × 3% × $50 = **$2,363**
 - Labor saved: 250 × $20 = **$5,000**
@@ -111,6 +111,8 @@ Estimates are for deciding whether to test. Then measure:
    - median reply time to questions;
    - how many spam and scam comments were hidden, and how many hides you reversed;
    - hours your team spent on comments.
+
+   Most tools report some of this. In Rypl, the Dashboard shows reply coverage, questions and hidden comments for the period you pick. To put comments next to spend and orders in one sheet or data warehouse, export them through an API ([how to get ad comments through an API or MCP](https://www.rypl.is/blog/facebook-instagram-tiktok-comments-api)).
 4. **Check the answers, not just the numbers.** A fast wrong answer costs more than a slow right one. Read a sample of replies every week.
 
 For reference: the cleanest public A/B test, by [BrandBastion at MindValley](https://blog.brandbastion.com/how-to-measure-community-management-roi), measured +48% ROAS with comment management as the only variable. That is the upper end of published results. Across RYPL accounts the lift was about +10% ROAS in the first month (RYPL's own measurement). Your result will depend on your comment volume, your product and how good the answers are.
@@ -118,10 +120,12 @@ For reference: the cleanest public A/B test, by [BrandBastion at MindValley](htt
 
 ## More on rypl.is
 
-- [Meta ads ROAS in 2026](https://www.rypl.is/blog/meta-ads-roas-2026): what's realistic by industry, with a calculator
-- [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
-- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026 (CC BY 4.0)
-- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [How much does Rypl cost?](https://www.rypl.is/docs/before-you-start/how-much-does-rypl-cost): plans, yearly prices and what each includes
+- [What does the Rypl dashboard show?](https://www.rypl.is/docs/dashboard/what-does-the-dashboard-show): reply coverage, hidden comments and questions for a period
+- [Meta Ads ROAS in 2026: What's Realistic by Industry (with Calculator)](https://www.rypl.is/blog/meta-ads-roas-2026)
+- [Why Facebook Comment Response Time Directly Affects Your Ad Performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
+- [Ad Comment Statistics 2026: What People Write to Advertisers](https://www.rypl.is/blog/ad-comment-statistics-2026): RYPL data, Q3 2026 (CC BY 4.0)
+- [Pricing: Plans From $19/mo, 7-Day Free Trial](https://www.rypl.is/pricing): no comment limit on any plan
 
 ---
 
