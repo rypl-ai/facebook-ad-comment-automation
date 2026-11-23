@@ -1,6 +1,6 @@
 # Step-by-Step Setup Guide for Facebook Ad Comment Automation
 
-*Last updated: November 19, 2026*
+*Last updated: November 23, 2026*
 
 [Back to Main Guide](../README.md) | [Best Practices](best-practices.md) | [ROI Guide](roi-estimation-guide.md)
 
@@ -33,7 +33,7 @@ During sign-up you connect one account; add more once the trial has started. Lat
 
 - **Facebook:** choose **Business profile** (through your Meta Business portfolio, recommended because it doesn't need re-login) or **Personal profile**. Allow the permissions and select your Pages.
 - **Instagram:** comes with the Facebook Page it is linked to and doesn't count as an extra channel.
-- **TikTok:** choose **TikTok ads**, sign in to TikTok for Business and authorize your ad accounts. Rypl handles comments on TikTok ads; organic TikTok posts and TikTok messages aren't supported.
+- **TikTok:** choose **TikTok ads**, sign in to TikTok for Business and authorize your ad accounts. For comments on your own TikTok posts, also choose **TikTok account** and authorize it on TikTok. TikTok messages aren't supported.
 
 Everything connects through the official Meta Graph API and TikTok Marketing API. If a Page or Instagram account doesn't appear, see [Why doesn't my Page or Instagram account appear in Rypl?](https://www.rypl.is/docs/troubleshooting/why-doesnt-my-page-appear)
 

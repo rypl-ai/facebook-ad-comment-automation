@@ -1,6 +1,6 @@
 # Facebook Ad Comment Automation Tools: Detailed Comparison
 
-*Last updated: November 19, 2026*
+*Last updated: November 23, 2026*
 
 [Back to Main Guide](../README.md) | [ROI Guide](roi-estimation-guide.md) | [Setup Guide](setup-guide.md)
 
@@ -50,7 +50,7 @@ Rypl replies to and moderates comments and DMs on Facebook and Instagram, plus c
 
 **Pricing:** flat, with no comment limit on any plan. Simple $19/mo (1 account, AI replies on 3 channels, 1 agent), Pro $49/mo (5 accounts, AI replies on 20 channels, unlimited agents, the API and MCP server), Ultra $89/mo (unlimited accounts and channels, the most powerful AI, conversation memory). A channel is a Facebook Page with its linked Instagram account, or a TikTok ad account; moderation runs on every connected channel, and only channels with AI replies on count toward the plan. Billed yearly: $182, $470 or $854 a year. 7-day free trial on every plan. Rypl runs on the latest OpenAI models and upgrades them automatically. Details: [Rypl pricing](https://www.rypl.is/pricing).
 
-**Focus:** Rypl is built for comments and DMs, not publishing, scheduling or social listening. Teams that need those keep their suite or flow builder and let Rypl answer the comments. On TikTok it handles ad comments only.
+**Focus:** Rypl is built for comments and DMs, not publishing, scheduling or social listening. Teams that need those keep their suite or flow builder and let Rypl answer the comments. On TikTok it handles ad comments and comments on your own TikTok posts.
 
 ---
 
